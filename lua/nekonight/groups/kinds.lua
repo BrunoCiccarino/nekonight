@@ -38,7 +38,7 @@ local kinds = {
   Value = "@string",
 }
 
----@param hl? tokyonight.Highlights
+---@param hl? nekonight.Highlights
 ---@param pattern? string
 function M.kinds(hl, pattern)
   hl = hl or {}
@@ -53,7 +53,7 @@ function M.kinds(hl, pattern)
   return hl
 end
 
----@type tokyonight.HighlightsFn
+---@type nekonight.HighlightsFn
 function M.get()
   return M.kinds()
 end

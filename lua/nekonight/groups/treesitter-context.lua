@@ -1,10 +1,10 @@
-local Util = require("tokyonight.util")
+local Util = require("nekonight.util")
 
 local M = {}
 
 M.url = "https://github.com/nvim-treesitter/nvim-treesitter-context"
 
----@type tokyonight.HighlightsFn
+---@type nekonight.HighlightsFn
 function M.get(c)
   -- stylua: ignore
   return {

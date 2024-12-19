@@ -1,10 +1,10 @@
-local Util = require("tokyonight.util")
+local Util = require("nekonight.util")
 
 local M = {}
 
 M.url = "https://github.com/rcarriga/nvim-notify"
 
----@type tokyonight.HighlightsFn
+---@type nekonight.HighlightsFn
 function M.get(c, opts)
   -- stylua: ignore
   return {

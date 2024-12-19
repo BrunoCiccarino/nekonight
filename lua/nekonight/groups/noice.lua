@@ -2,7 +2,7 @@ local M = {}
 
 M.url = "https://github.com/folke/noice.nvim"
 
----@type tokyonight.HighlightsFn
+---@type nekonight.HighlightsFn
 function M.get(c)
   -- stylua: ignore
   local ret = {
@@ -14,7 +14,7 @@ function M.get(c)
     NoiceCmdlinePopupTitleLua      = { fg = c.blue1 },
     NoiceCompletionItemKindDefault = { fg = c.fg_dark, bg = c.none },
   }
-  require("tokyonight.groups.kinds").kinds(ret, "NoiceCompletionItemKind%s")
+  require("nekonight.groups.kinds").kinds(ret, "NoiceCompletionItemKind%s")
   return ret
 end
 
