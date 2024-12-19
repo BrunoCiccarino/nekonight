@@ -1,7 +1,7 @@
 # -----------------------------------------------------------------------------
-# TokyoNight Alacritty Colors
-# Theme: Tokyo Night Storm
-# Upstream: https://github.com/folke/tokyonight.nvim/raw/main/extras/alacritty/tokyonight_storm.toml
+# nekonight Alacritty Colors
+# Theme: Neko Night Storm
+# Upstream: https://github.com/BrunoCiccarino/nekonight/raw/main/extras/alacritty/nekonight_storm.toml
 # -----------------------------------------------------------------------------
 
 # Default colors

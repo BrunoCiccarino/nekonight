@@ -1,4 +1,4 @@
-local util = require("tokyonight.util")
+local util = require("nekonight.util")
 local M = {}
 
 --- @param colors ColorScheme

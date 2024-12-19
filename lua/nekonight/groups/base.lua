@@ -1,8 +1,8 @@
-local Util = require("tokyonight.util")
+local Util = require("nekonight.util")
 
 local M = {}
 
----@type tokyonight.HighlightsFn
+---@type nekonight.HighlightsFn
 function M.get(c, opts)
   -- stylua: ignore
   return {

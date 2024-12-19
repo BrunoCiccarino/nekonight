@@ -6,9 +6,9 @@
 	<key>colorSpaceName</key>
 	<string>sRGB</string>
 	<key>name</key>
-	<string>TokyoNight</string>
+	<string>NekoNight</string>
 	<key>semanticClass</key>
-	<string>enki.theme.tokyo</string>
+	<string>enki.theme.neko</string>
 	<key>settings</key>
 	<array>
 		<dict>

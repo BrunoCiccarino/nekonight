@@ -2,7 +2,7 @@
 # 1. Create a new profile for GNOME Terminal
 # 2. Copy the UUID of the new profile (bottom right corner of the preferences window)
 # 3. Replace <PROFILE_UUID> below with the copied UUID
-# 4. Execute `dconf load /org/gnome/terminal/legacy/profiles:/ < tokyonight_day.dconf`
+# 4. Execute `dconf load /org/gnome/terminal/legacy/profiles:/ < nekonight_day.dconf`
 
 [:<PROFILE_UUID>]
 background-color='rgb(225, 226, 231)'
@@ -15,4 +15,4 @@ highlight-colors-set=true
 highlight-foreground-color='rgb(225, 226, 231)'
 palette=['rgb(161, 166, 197)', 'rgb(245, 42, 101)', 'rgb(88, 117, 57)', 'rgb(140, 108, 62)', 'rgb(46, 125, 233)', 'rgb(152, 84, 241)', 'rgb(0, 113, 151)', 'rgb(55, 96, 191)', 'rgb(161, 166, 197)', 'rgb(245, 42, 101)', 'rgb(88, 117, 57)', 'rgb(140, 108, 62)', 'rgb(46, 125, 233)', 'rgb(152, 84, 241)', 'rgb(0, 113, 151)', 'rgb(55, 96, 191)']
 use-theme-colors=false
-visible-name='Tokyo Night Day'
+visible-name='Neko Night Day'

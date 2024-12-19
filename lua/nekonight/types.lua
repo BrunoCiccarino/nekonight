@@ -1,10 +1,10 @@
----@class tokyonight.Highlight: vim.api.keyset.highlight
+---@class nekonight.Highlight: vim.api.keyset.highlight
 ---@field style? vim.api.keyset.highlight
 
----@alias tokyonight.Highlights table<string,tokyonight.Highlight|string>
+---@alias nekonight.Highlights table<string,nekonight.Highlight|string>
 
----@alias tokyonight.HighlightsFn fun(colors: ColorScheme, opts:tokyonight.Config):tokyonight.Highlights
+---@alias nekonight.HighlightsFn fun(colors: ColorScheme, opts:nekonight.Config):nekonight.Highlights
 
----@class tokyonight.Cache
----@field groups tokyonight.Highlights
+---@class nekonight.Cache
+---@field groups nekonight.Highlights
 ---@field inputs table

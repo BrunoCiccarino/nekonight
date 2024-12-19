@@ -1,1 +1,1 @@
-return require("lualine.themes._tokyonight").get("day")
+return require("lualine.themes._nekonight").get("day")

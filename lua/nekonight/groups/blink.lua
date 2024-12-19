@@ -2,7 +2,7 @@ local M = {}
 
 M.url = "https://github.com/Saghen/blink.cmp"
 
----@type tokyonight.HighlightsFn
+---@type nekonight.HighlightsFn
 function M.get(c, opts)
   -- stylua: ignore
   local ret = {
@@ -19,7 +19,7 @@ function M.get(c, opts)
     BlinkCmpLabelMatch      = { fg = c.blue1, bg            = c.none },
   }
 
-  require("tokyonight.groups.kinds").kinds(ret, "BlinkCmpKind%s")
+  require("nekonight.groups.kinds").kinds(ret, "BlinkCmpKind%s")
   return ret
 end
 

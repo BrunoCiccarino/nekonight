@@ -2,7 +2,7 @@ local M = {}
 
 M.url = "https://github.com/hrsh7th/nvim-cmp"
 
----@type tokyonight.HighlightsFn
+---@type nekonight.HighlightsFn
 function M.get(c, opts)
   -- stylua: ignore
   local ret = {
@@ -21,7 +21,7 @@ function M.get(c, opts)
     CmpItemMenu            = { fg = c.comment, bg = c.none },
   }
 
-  require("tokyonight.groups.kinds").kinds(ret, "CmpItemKind%s")
+  require("nekonight.groups.kinds").kinds(ret, "CmpItemKind%s")
   return ret
 end
 

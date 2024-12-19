@@ -1,4 +1,4 @@
-local c = require("tokyonight.colors").setup()
+local c = require("nekonight.colors").setup()
 
 local M = {
   normal = { bg = c.none, fg = c.fg_dark },

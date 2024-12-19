@@ -1,4 +1,4 @@
-local util = require("tokyonight.util")
+local util = require("nekonight.util")
 
 local M = {}
 
@@ -8,8 +8,8 @@ function M.generate(colors)
     [[
 # vim: ft=dosini
 #
-# aerc TokyoNight styleset
-# set styleset-name=tokyonight-xxx.ini in 'aerc.conf' to load the style
+# aerc nekonight styleset
+# set styleset-name=nekonight-xxx.ini in 'aerc.conf' to load the style
 #
 
 *.default=true

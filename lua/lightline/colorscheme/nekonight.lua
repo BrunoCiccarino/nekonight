@@ -1,8 +1,8 @@
-local colors = require("tokyonight.colors").setup()
+local colors = require("nekonight.colors").setup()
 
-local tokyonight = {}
+local nekonight = {}
 
-tokyonight.normal = {
+nekonight.normal = {
   left = { { colors.black, colors.blue }, { colors.blue, colors.fg_gutter } },
   middle = { { colors.fg, colors.bg_statusline } },
   right = { { colors.black, colors.blue }, { colors.blue, colors.fg_gutter } },
@@ -10,29 +10,29 @@ tokyonight.normal = {
   warning = { { colors.black, colors.warning } },
 }
 
-tokyonight.insert = {
+nekonight.insert = {
   left = { { colors.black, colors.green }, { colors.blue, colors.bg } },
 }
 
-tokyonight.visual = {
+nekonight.visual = {
   left = { { colors.black, colors.magenta }, { colors.blue, colors.bg } },
 }
 
-tokyonight.replace = {
+nekonight.replace = {
   left = { { colors.black, colors.red }, { colors.blue, colors.bg } },
 }
 
-tokyonight.inactive = {
+nekonight.inactive = {
   left = { { colors.blue, colors.bg_statusline }, { colors.dark3, colors.bg } },
   middle = { { colors.fg_gutter, colors.bg_statusline } },
   right = { { colors.fg_gutter, colors.bg_statusline }, { colors.dark3, colors.bg } },
 }
 
-tokyonight.tabline = {
+nekonight.tabline = {
   left = { { colors.dark3, colors.bg_highlight }, { colors.dark3, colors.bg } },
   middle = { { colors.fg_gutter, colors.bg_statusline } },
   right = { { colors.fg_gutter, colors.bg_statusline }, { colors.dark3, colors.bg } },
   tabsel = { { colors.blue, colors.fg_gutter }, { colors.dark3, colors.bg } },
 }
 
-return tokyonight
+return nekonight

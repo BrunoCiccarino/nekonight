@@ -1,10 +1,10 @@
 <h3 align="center">
-	Tokyonight for <a href="https://github.com/eza-community/eza">eza</a>
+	Nekonight for <a href="https://github.com/eza-community/eza">eza</a>
 </h3>
 
 ### About
 
-A Tokyonight theme for `eza`, a modern replacement for `ls`.
+A nekonight theme for `eza`, a modern replacement for `ls`.
 
 ### Usage
 

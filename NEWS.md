@@ -1,8 +1,14 @@
 # What's New?
 
+## 0.x
+
+#### Forked
+
+On 12/19/2024 the tokyo night theme was forked for a colorschemes expansion, with the addition of a new color palette, now nekonight becomes a megapack of multi-platform themes.
+
 ## 4.x
 
-**TokyoNight** creates almost 900 highlight groups, so it was about time to refactor the code :)
+**tokyonight** creates almost 900 highlight groups, so it was about time to refactor the code :)
 
 Support for plugins has been split in separate files and can be enabled/disabled via `opts`.
 

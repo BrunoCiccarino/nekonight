@@ -2,7 +2,7 @@ local M = {}
 
 M.url = "https://github.com/lambdalisue/glyph-palette.vim"
 
----@type tokyonight.HighlightsFn
+---@type nekonight.HighlightsFn
 function M.get(c)
   -- stylua: ignore
   return {

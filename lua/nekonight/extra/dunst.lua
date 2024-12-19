@@ -1,4 +1,4 @@
-local util = require("tokyonight.util")
+local util = require("nekonight.util")
 
 local M = {}
 
@@ -6,7 +6,7 @@ local M = {}
 function M.generate(colors)
   local dunst = util.template(
     [[
-# TokyoNight colors for dunst
+# NekoNight colors for dunst
 # For more configuration options see https://github.com/dunst-project/dunst/blob/master/dunstrc
 
 [urgency_low]

@@ -1,13 +1,13 @@
-local Util = require("tokyonight.util")
+local Util = require("nekonight.util")
 
 local M = {}
 
----@param opts? tokyonight.Config
+---@param opts? nekonight.Config
 function M.setup(opts)
-  opts = require("tokyonight.config").extend(opts)
+  opts = require("nekonight.config").extend(opts)
 
-  local colors = require("tokyonight.colors").setup(opts)
-  local groups = require("tokyonight.groups").setup(colors, opts)
+  local colors = require("nekonight.colors").setup(opts)
+  local groups = require("nekonight.groups").setup(colors, opts)
 
   -- only needed to clear when not the default colorscheme
   if vim.g.colors_name then
@@ -15,7 +15,7 @@ function M.setup(opts)
   end
 
   vim.o.termguicolors = true
-  vim.g.colors_name = "tokyonight-" .. opts.style
+  vim.g.colors_name = "nekonight-" .. opts.style
 
   for group, hl in pairs(groups) do
     hl = type(hl) == "string" and { link = hl } or hl

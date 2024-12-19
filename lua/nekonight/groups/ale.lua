@@ -2,7 +2,7 @@ local M = {}
 
 M.url = "https://github.com/dense-analysis/ale"
 
----@type tokyonight.HighlightsFn
+---@type nekonight.HighlightsFn
 function M.get(c, opts)
   -- stylua: ignore
   return {

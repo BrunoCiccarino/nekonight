@@ -10,5 +10,5 @@ jobs:
     uses: folke/github/.github/workflows/ci.yml@main
     secrets: inherit
     with:
-      plugin: tokyonight.nvim
-      repo: folke/tokyonight.nvim
+      plugin: nekonight
+      repo: BrunoCiccarino/nekonight

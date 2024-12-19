@@ -1,4 +1,4 @@
-    # TokyoNight Color Palette
+    # nekonight Color Palette
     set -l foreground 3760bf
     set -l selection b7c1e3
     set -l comment 848cb5

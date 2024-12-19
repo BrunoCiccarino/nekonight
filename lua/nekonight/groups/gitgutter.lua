@@ -2,7 +2,7 @@ local M = {}
 
 M.url = "https://github.com/airblade/vim-gitgutter"
 
----@type tokyonight.HighlightsFn
+---@type nekonight.HighlightsFn
 function M.get(c, opts)
   -- stylua: ignore
   return {

@@ -1,7 +1,7 @@
-# Tokyonight color theme for Zathura
+# nekonight color theme for Zathura
 # Swaps Foreground for Background to get a light version if the user prefers
 #
-# Tokyonight color theme
+# nekonight color theme
 #
 set notification-error-bg "#ff757f"
 set notification-error-fg "#c8d3f5"

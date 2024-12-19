@@ -1,4 +1,4 @@
-local Util = require("tokyonight.util")
+local Util = require("nekonight.util")
 
 local M = {}
 
@@ -45,7 +45,7 @@ M.extras = {
 }
 
 function M.setup()
-  local tokyonight = require("tokyonight")
+  local nekonight = require("nekonight")
   vim.o.background = "dark"
 
   -- map of style to style name
@@ -60,23 +60,23 @@ function M.setup()
   local names = vim.tbl_keys(M.extras)
   table.sort(names)
 
-  -- tokyonight.setup({ plugins = { all = true } })
+  -- nekonight.setup({ plugins = { all = true } })
   for _, extra in ipairs(names) do
     local info = M.extras[extra]
-    local plugin = require("tokyonight.extra." .. extra)
+    local plugin = require("nekonight.extra." .. extra)
     for style, style_name in pairs(styles) do
-      local colors, groups, opts = tokyonight.load({ style = style, plugins = { all = true } })
+      local colors, groups, opts = nekonight.load({ style = style, plugins = { all = true } })
       local fname = extra
         .. (info.subdir and "/" .. info.subdir .. "/" or "")
-        .. "/tokyonight"
+        .. "/nekonight"
         .. (info.sep or "_")
         .. style
         .. "."
         .. info.ext
       fname = string.gsub(fname, "%.$", "") -- remove trailing dot when no extension
-      colors["_upstream_url"] = "https://github.com/folke/tokyonight.nvim/raw/main/extras/" .. fname
-      colors["_style_name"] = "Tokyo Night" .. style_name
-      colors["_name"] = "tokyonight_" .. style
+      colors["_upstream_url"] = "https://github.com/BrunoCiccarino/nekonight/raw/main/extras/" .. fname
+      colors["_style_name"] = "nekonight" .. style_name
+      colors["_name"] = "nekonight_" .. style
       colors["_style"] = style
       print("[write] " .. fname)
       Util.write("extras/" .. fname, plugin.generate(colors, groups, opts))

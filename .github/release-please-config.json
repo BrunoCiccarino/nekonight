@@ -3,7 +3,7 @@
   "packages": {
     ".": {
       "release-type": "simple",
-      "extra-files": ["lua/tokyonight/config.lua"]
+      "extra-files": ["lua/nekonight/config.lua"]
     }
   }
 }

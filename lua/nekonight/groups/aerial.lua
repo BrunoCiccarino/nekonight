@@ -2,7 +2,7 @@ local M = {}
 
 M.url = "https://github.com/stevearc/aerial.nvim"
 
----@type tokyonight.HighlightsFn
+---@type nekonight.HighlightsFn
 function M.get(c, opts)
   -- stylua: ignore
   local ret = {
@@ -10,7 +10,7 @@ function M.get(c, opts)
     AerialGuide  = { fg = c.fg_gutter },
     AerialLine   = "LspInlayHint",
   }
-  require("tokyonight.groups.kinds").kinds(ret, "Aerial%sIcon")
+  require("nekonight.groups.kinds").kinds(ret, "Aerial%sIcon")
   return ret
 end
 

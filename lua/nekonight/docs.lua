@@ -1,5 +1,5 @@
 local Docs = require("lazy.docs")
-local Groups = require("tokyonight.groups")
+local Groups = require("nekonight.groups")
 
 local M = {}
 
@@ -24,7 +24,7 @@ function M.table(t)
 end
 
 function M.extras()
-  local Extra = require("tokyonight.extra")
+  local Extra = require("nekonight.extra")
   local names = vim.tbl_keys(Extra.extras) ---@type string[]
   table.sort(names)
   local t = {
@@ -48,14 +48,14 @@ function M.plugins()
     local repo = group.url:match("[^/]*$")
     t[#t + 1] = {
       link(repo, group.url),
-      link(("`%s`"):format(name), "lua/tokyonight/groups/" .. name .. ".lua"),
+      link(("`%s`"):format(name), "lua/nekonight/groups/" .. name .. ".lua"),
     }
   end
   return M.table(t)
 end
 
 function M.update()
-  local config = Docs.extract("lua/tokyonight/config.lua", "\n(--@class tokyonight%.Config.-\n})")
+  local config = Docs.extract("lua/nekonight/config.lua", "\n(--@class nekonight%.Config.-\n})")
   config = config:gsub("%s*debug = false.\n", "\n")
   Docs.save({
     config = config,

@@ -44,7 +44,7 @@ TokyoNight](https://github.com/enkia/tokyo-night-vscode-theme) theme. Includes
   [0.9.0](https://github.com/neovim/neovim/releases/tag/v0.9.0) features.
 - Terminal colors.
 - Supports all major plugins.
-- Provides [TokyoNight](https://github.com/folke/tokyonight.nvim)
+- Provides [NekoNight](https://github.com/BrunoCiccarino/nekonight)
   [extras](#-extras) for numerous other applications.
 
 <details>

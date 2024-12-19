@@ -7,11 +7,11 @@ local mapping = {
 }
 
 --- @param colors ColorScheme
---- @param groups tokyonight.Highlights
---- @param opts tokyonight.Config
+--- @param groups nekonight.Highlights
+--- @param opts nekonight.Config
 function M.generate(colors, groups, opts)
   opts.plugins = { all = false, auto = false, treesitter = false }
-  local Groups = require("tokyonight.groups")
+  local Groups = require("nekonight.groups")
   for p, n in pairs(Groups.plugins) do
     if not p:find("nvim") then
       opts.plugins[n] = true
@@ -20,7 +20,7 @@ function M.generate(colors, groups, opts)
   groups = Groups.setup(colors, opts)
   local lines = {
     ([[
-let g:colors_name = "tokyonight-%s"
+let g:colors_name = "nekonight-%s"
 hi clear
   ]]):format(colors._style),
   }
@@ -83,7 +83,7 @@ hi clear
         used[name] = true
         lines[#lines + 1] = ("hi %s %s"):format(name, table.concat(props, " "))
       else
-        print("tokyonight: invalid highlight group: " .. name)
+        print("nekonight: invalid highlight group: " .. name)
       end
     end
   end
