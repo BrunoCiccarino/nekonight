@@ -4,6 +4,7 @@ A dark and light [Neovim](https://github.com/neovim/neovim) theme written in
 [Lua](https://www.lua.org) ported from the [Visual Studio Code
 TokyoNight](https://github.com/enkia/tokyo-night-vscode-theme) theme. Includes
 [extra](#-extras) themes for [Kitty](https://sw.kovidgoyal.net/kitty/conf.html),
+[tokyonight.nvim](https://github.com/folke/tokyonight.nvim),
 [Alacritty](https://github.com/alacritty/alacritty),
 [iTerm](https://iterm2.com/) and
 [Fish](https://fishshell.com/docs/current/index.html).
@@ -34,6 +35,30 @@ TokyoNight](https://github.com/enkia/tokyo-night-vscode-theme) theme. Includes
     </td>
     <td width="50%">
       <img src="https://user-images.githubusercontent.com/292349/115996270-78c6c480-a593-11eb-8ed0-7d1400b058f5.png" />
+    </td>
+  </tr>
+  <tr>
+    <th>Mars</th>
+    <th>Nord</th>
+  </tr>
+  <tr>
+    <td width="50%">
+      <img src="./img/nekonightbrown.jpg" />
+    </td>
+    <td width="50%">
+      <img src="./img/neko-nord.jpg" />
+    </td>
+  </tr>
+  <tr>
+    <th>Shades of purple</th>
+    <th>Shades of purple dark</th>
+  </tr>
+  <tr>
+    <td width="50%">
+      <img src="./img/neko-shades-of-purple.jpg" />
+    </td>
+    <td width="50%">
+      <img src="./img/neko-shades-of-purple-dark.jpg" />
     </td>
   </tr>
 </table>
