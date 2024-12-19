@@ -34,44 +34,19 @@
   "contributes": {
     "themes": [
       {
-        "label": "Neko Night Light Default",
+        "label": "Tokyo Night Light",
         "uiTheme": "vs",
         "path": "./themes/light-default.json"
       },
       {
-        "label": "Neko Night Light High Contrast",
+        "label": "Tokyo Night",
         "uiTheme": "hc-light",
-        "path": "./themes/light-high-contrast.json"
+        "path": "./themes/tokyo-night-color-theme.json"
       },
       {
-        "label": "Neko Night Light Colorblind (Beta)",
+        "label": "Tokyo Night Storm",
         "uiTheme": "vs",
-        "path": "./themes/light-colorblind.json"
-      },
-      {
-        "label": "Neko Light Dark Default",
-        "uiTheme": "vs-dark",
-        "path": "./themes/dark-default.json"
-      },
-      {
-        "label": "Neko Night Dark High Contrast",
-        "uiTheme": "hc-black",
-        "path": "./themes/dark-high-contrast.json"
-      },
-      {
-        "label": "Neko Night Dark Colorblind (Beta)",
-        "uiTheme": "vs-dark",
-        "path": "./themes/dark-colorblind.json"
-      },
-      {
-        "label": "Neko Night Dark Dimmed",
-        "uiTheme": "vs-dark",
-        "path": "./themes/dark-dimmed.json"
-      },
-      {
-        "label": "Neko Light",
-        "uiTheme": "vs",
-        "path": "./themes/light.json"
+        "path": "./themes/tokyo-night-storm-color-theme.json"
       },
       {
         "label": "Neko Dark",
