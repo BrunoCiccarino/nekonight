@@ -68,6 +68,9 @@ If you love it (and we know you will), hit that ⭐ on our [official repo](https
       <img src="./img/neko-shades-of-purple-dark.jpg" />
     </td>
   </tr>
+  </table>
+
+  <table widith="500">
   <tr>
     <th>OneDark</th>
     <th>Fire Obsidian</th>
