@@ -5,5 +5,5 @@ return vim.tbl_deep_extend("force", ret, {
   bg = "#292640",
   bg_dark = "#232136",
   bg_dark1 = "#232136",
-  bg_highlight = "#bbb3ff",
+  bg_highlight = nil,
 })
