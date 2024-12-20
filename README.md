@@ -1,7 +1,10 @@
 # 🏙 Neko Night
 
+![lua](https://img.shields.io/badge/lua-code?style=for-the-badge&logo=lua&color=%23789DBC) ![GitHub last commit](https://img.shields.io/github/last-commit/BrunoCiccarino/nekonight?style=for-the-badge&logo=lua&color=%238BCDCD) ![GitHub forks](https://img.shields.io/github/forks/BrunoCiccarino/nekonight?style=for-the-badge&logo=lua&color=%23a3be8c) ![GitHub Repo stars](https://img.shields.io/github/stars/BrunoCiccarino/nekonight?style=for-the-badge&logo=lua&color=%23624E88)
+
+
 A dark and light [Neovim](https://github.com/neovim/neovim) theme written in
-[Lua](https://www.lua.org)  
+[Lua](https://www.lua.org), made for those of you who like various theme options, a catalog for various tastes and flavors, increase your productivity and inspiration, with countless color scheme options, and if you liked it, don't forget to leave a star ⭐ on our official repository.
 
 ![logo](./extras/vscode/img/nekonight.png)
 
@@ -92,6 +95,7 @@ A dark and light [Neovim](https://github.com/neovim/neovim) theme written in
 | [nvim-dap](https://github.com/mfussenegger/nvim-dap) | [`dap`](lua/nekonight/groups/dap.lua) |
 | [dashboard-nvim](https://github.com/nvimdev/dashboard-nvim) | [`dashboard`](lua/nekonight/groups/dashboard.lua) |
 | [flash.nvim](https://github.com/folke/flash.nvim) | [`flash`](lua/nekonight/groups/flash.lua) |
+| [fugit2](https://github.com/SuperBo/fugit2.nvim) | [`fugit2`](lua/nekonight/groups/fugit2.lua) |
 | [fzf-lua](https://github.com/ibhagwan/fzf-lua) | [`fzf`](lua/nekonight/groups/fzf.lua) |
 | [vim-gitgutter](https://github.com/airblade/vim-gitgutter) | [`gitgutter`](lua/nekonight/groups/gitgutter.lua) |
 | [gitsigns.nvim](https://github.com/lewis6991/gitsigns.nvim) | [`gitsigns`](lua/nekonight/groups/gitsigns.lua) |
@@ -466,6 +470,14 @@ aplugin.my_error = util.lighten(colors.red1, 0.3) -- number between 0 and 1. 0 r
 
 Pull requests are welcome.
 
+That said, there's a bunch of ways you can contribute to this project, like by:
+
+* ⭐ Giving a star on this repository (this is very important and costs nothing)
+* 🪲 Reporting a bug
+* 📄 Improving this [documentation](./doc/nekonight.txt)
+* 🚨 Sharing this project and recommending it to your friends
+* 💻 Submitting a pull request to the official repository
+
 For the [extras](#-extras), we use a simple template system that can be used to
 generate themes for the different styles.
 
@@ -482,3 +494,4 @@ How to add a new extra template:
 
 4. Check the newly created themes in the `extra/` directory. Please **DO NOT**
    commit them, as they are already automatically built by the CI.
+
