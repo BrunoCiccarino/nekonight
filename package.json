@@ -1,0 +1,23 @@
+{
+  "name": "nekonight",
+  "version": "0.0.1",
+  "description": "an super megapack of colorschemes",
+  "main": "index.js",
+  "directories": {
+    "test": "tests",
+    "doc": "doc"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BrunoCiccarino/nekonight.git"
+  },
+  "author": "BrunoCiccarino",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BrunoCiccarino/nekonight/issues"
+  },
+  "homepage": "https://github.com/BrunoCiccarino/nekonight#readme"
+}

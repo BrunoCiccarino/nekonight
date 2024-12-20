@@ -3,10 +3,12 @@
 A dark and light [Neovim](https://github.com/neovim/neovim) theme written in
 [Lua](https://www.lua.org)  
 
+![logo](./extras/vscode/img/nekonight.png)
+
 ## Credits
-[Visual Studio Code TokyoNight](https://github.com/enkia/tokyo-night-vscode-theme) 
-[tokyonight.nvim](https://github.com/folke/tokyonight.nvim)
-[shades of purple](https://github.com/ahmadawais/shades-of-purple-vscode)
+- [Visual Studio Code TokyoNight](https://github.com/enkia/tokyo-night-vscode-theme)
+- [tokyonight.nvim](https://github.com/folke/tokyonight.nvim)
+- [shades of purple](https://github.com/ahmadawais/shades-of-purple-vscode)
 
 > [!NOTE]
 > This theme is a fork of folke/tokyonight.nvim all rights reserved
