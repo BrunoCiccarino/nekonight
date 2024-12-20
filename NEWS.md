@@ -6,6 +6,15 @@
 
 On 12/19/2024 the tokyo night theme was forked for a colorschemes expansion, with the addition of a new color palette, now nekonight becomes a megapack of multi-platform themes.
 
+New themes added 
+
+- neko mars theme
+- neko nord theme
+- neko shades of purple theme
+- neko shades of purple dark theme
+
+with hand-picked colors to inspire you and increase your productivity, themes with Nordic colors and themes with modern colors.
+
 ## 4.x
 
 **tokyonight** creates almost 900 highlight groups, so it was about time to refactor the code :)
