@@ -1,13 +1,12 @@
 # 🏙 Neko Night
 
 A dark and light [Neovim](https://github.com/neovim/neovim) theme written in
-[Lua](https://www.lua.org) ported from the [Visual Studio Code
-TokyoNight](https://github.com/enkia/tokyo-night-vscode-theme) theme. Includes
-[extra](#-extras) themes for [Kitty](https://sw.kovidgoyal.net/kitty/conf.html),
-[tokyonight.nvim](https://github.com/folke/tokyonight.nvim),
-[Alacritty](https://github.com/alacritty/alacritty),
-[iTerm](https://iterm2.com/) and
-[Fish](https://fishshell.com/docs/current/index.html).
+[Lua](https://www.lua.org)  
+
+## Credits
+[Visual Studio Code TokyoNight](https://github.com/enkia/tokyo-night-vscode-theme) 
+[tokyonight.nvim](https://github.com/folke/tokyonight.nvim)
+[shades of purple](https://github.com/ahmadawais/shades-of-purple-vscode)
 
 > [!NOTE]
 > This theme is a fork of folke/tokyonight.nvim all rights reserved
