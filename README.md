@@ -9,7 +9,7 @@ Want to boost your productivity *and* look good while coding? We've got countles
 
 If you love it (and we know you will), hit that ⭐ on our [official repo](https://github.com/BrunoCiccarino/nekonight). Your support means the world! 🌍
 
-![logo](./img/nekonight-02.jpg)
+<video src="./img/neko-coffee.mp4">
 
 ## Credits
 - [Visual Studio Code TokyoNight](https://github.com/enkia/tokyo-night-vscode-theme)
@@ -78,6 +78,18 @@ If you love it (and we know you will), hit that ⭐ on our [official repo](https
     </td>
     <td width="50%">
       <img src="./img/neko-fire-obsidian.jpg" />
+    </td>
+  </tr>
+  <tr>
+    <th>Palenight</th>
+    <th>Noctis-Uva</th>
+  </tr>
+  <tr>
+    <td width="50%">
+      <img src="./img/neko-palenight.jpg" />
+    </td>
+    <td width="50%">
+      <img src="./img/neko-noctis-uva.jpg" />
     </td>
   </tr>
 </table>
