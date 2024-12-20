@@ -1,7 +1,6 @@
 # 🏙 Neko Night
 
-![lua](https://img.shields.io/badge/lua-code?style=for-the-badge&logo=lua&color=%23789DBC) ![GitHub last commit](https://img.shields.io/github/last-commit/BrunoCiccarino/nekonight?style=for-the-badge&logo=lua&color=%238BCDCD) ![GitHub forks](https://img.shields.io/github/forks/BrunoCiccarino/nekonight?style=for-the-badge&logo=lua&color=%23a3be8c) ![GitHub Repo stars](https://img.shields.io/github/stars/BrunoCiccarino/nekonight?style=for-the-badge&logo=lua&color=%23624E88)
-
+![lua](https://img.shields.io/badge/lua-code?style=for-the-badge&logo=lua&color=%23789DBC) ![GitHub last commit](https://img.shields.io/github/last-commit/BrunoCiccarino/nekonight?style=for-the-badge&logo=lua&color=%238BCDCD) ![GitHub forks](https://img.shields.io/github/forks/BrunoCiccarino/nekonight?style=for-the-badge&logo=lua&color=%23a3be8c) ![GitHub Repo stars](https://img.shields.io/github/stars/BrunoCiccarino/nekonight?style=for-the-badge&logo=lua&color=%23624E88) ![Neovim](https://img.shields.io/badge/NeoVim-%2357A143.svg?&style=for-the-badge&logo=neovim&logoColor=white)
 
 A dark and light [Neovim](https://github.com/neovim/neovim) theme written in
 [Lua](https://www.lua.org), made for those of you who like various theme options, a catalog for various tastes and flavors, increase your productivity and inspiration, with countless color scheme options, and if you liked it, don't forget to leave a star ⭐ on our official repository.
