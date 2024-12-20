@@ -2,8 +2,11 @@
 
 ![lua](https://img.shields.io/badge/lua-code?style=for-the-badge&logo=lua&color=%23789DBC) ![GitHub last commit](https://img.shields.io/github/last-commit/BrunoCiccarino/nekonight?style=for-the-badge&logo=lua&color=%238BCDCD) ![GitHub forks](https://img.shields.io/github/forks/BrunoCiccarino/nekonight?style=for-the-badge&logo=lua&color=%23a3be8c) ![GitHub Repo stars](https://img.shields.io/github/stars/BrunoCiccarino/nekonight?style=for-the-badge&logo=lua&color=%23624E88) ![Neovim](https://img.shields.io/badge/NeoVim-%2357A143.svg?&style=for-the-badge&logo=neovim&logoColor=white)
 
-A dark and light [Neovim](https://github.com/neovim/neovim) theme written in
-[Lua](https://www.lua.org), made for those of you who like various theme options, a catalog for various tastes and flavors, increase your productivity and inspiration, with countless color scheme options, and if you liked it, don't forget to leave a star ⭐ on our official repository.
+Looking for a theme that fits your vibe? Whether you're into dark mode, light mode, or something in between, this **NekoNight** has got you covered. Written in [Lua](https://www.lua.org) for snappy performance, it's a buffet of color schemes for every taste and mood. 🍭
+
+Want to boost your productivity *and* look good while coding? We've got countless options to keep you inspired and in the zone. 🚀✨
+
+If you love it (and we know you will), hit that ⭐ on our [official repo](https://github.com/BrunoCiccarino/nekonight). Your support means the world! 🌍
 
 ![logo](./img/nekonight-02.jpg)
 
