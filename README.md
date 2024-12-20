@@ -19,6 +19,9 @@ If you love it (and we know you will), hit that ⭐ on our [official repo](https
 > [!NOTE]
 > This theme is a fork of folke/tokyonight.nvim all rights reserved
 
+<details>
+<summary>🍭 Themes preview</summary>
+
 <table width="100%">
   <tr>
     <th>Moon</th>
@@ -68,9 +71,6 @@ If you love it (and we know you will), hit that ⭐ on our [official repo](https
       <img src="./img/neko-shades-of-purple-dark.jpg" />
     </td>
   </tr>
-  </table>
-
-  <table widith="500">
   <tr>
     <th>OneDark</th>
     <th>Fire Obsidian</th>
@@ -96,6 +96,7 @@ If you love it (and we know you will), hit that ⭐ on our [official repo](https
     </td>
   </tr>
 </table>
+</details>
 
 ## ✨ Features
 
