@@ -6,7 +6,7 @@
 A dark and light [Neovim](https://github.com/neovim/neovim) theme written in
 [Lua](https://www.lua.org), made for those of you who like various theme options, a catalog for various tastes and flavors, increase your productivity and inspiration, with countless color scheme options, and if you liked it, don't forget to leave a star ⭐ on our official repository.
 
-![logo](./extras/vscode/img/nekonight.png)
+![logo](./img/nekonight-02.jpg)
 
 ## Credits
 - [Visual Studio Code TokyoNight](https://github.com/enkia/tokyo-night-vscode-theme)
@@ -63,6 +63,18 @@ A dark and light [Neovim](https://github.com/neovim/neovim) theme written in
     </td>
     <td width="50%">
       <img src="./img/neko-shades-of-purple-dark.jpg" />
+    </td>
+  </tr>
+  <tr>
+    <th>OneDark</th>
+    <th>Fire Obsidian</th>
+  </tr>
+  <tr>
+    <td width="50%">
+      <img src="./img/neko-onedark.jpg" />
+    </td>
+    <td width="50%">
+      <img src="./img/neko-fire-obsidian.jpg" />
     </td>
   </tr>
 </table>

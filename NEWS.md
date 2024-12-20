@@ -12,8 +12,12 @@ New themes added
 - neko nord theme
 - neko shades of purple theme
 - neko shades of purple dark theme
+- neko fire obsidian
+- neko onedark
 
 with hand-picked colors to inspire you and increase your productivity, themes with Nordic colors and themes with modern colors.
+
+- added support for vim fugit2 plugin
 
 ## 4.x
 
