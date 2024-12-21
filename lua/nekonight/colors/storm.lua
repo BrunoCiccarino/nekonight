@@ -16,6 +16,7 @@ local ret = {
   dark3 = "#545c7e",
   dark5 = "#737aa2",
   fg = "#c0caf5",
+  fg_gruvbox ="#f9f5d7",
   fg_dark = "#a9b1d6",
   fg_gutter = "#3b4261",
   green = "#9ece6a",
