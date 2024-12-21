@@ -17,7 +17,10 @@ Looking for a theme that fits your vibe? Whether you're into dark mode, light mo
 > This theme is a fork of folke/tokyonight.nvim all rights reserved
 
 
-<summary>🍭 Themes preview</summary>
+## 🍭 Themes preview 
+ 
+<details>
+<summary>🎨 neovim</summary>
 
 <table width="100%">
   <tr>
@@ -101,6 +104,13 @@ Looking for a theme that fits your vibe? Whether you're into dark mode, light mo
     </td>
   </tr>
   </table>
+
+  </details>
+
+  <details>
+  <summary>🎨 emacs</summary>
+
+  </details>
 
 ## ✨ Features
 
