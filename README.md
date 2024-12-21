@@ -7,7 +7,6 @@
 
 Looking for a theme that fits your vibe? Whether you're into dark mode, light mode, or something in between, this **NekoNight** has got you covered. Written in [Lua](https://www.lua.org) for snappy performance, it's a buffet of color schemes for every taste and mood. 🍭 Want to boost your productivity *and* look good while coding? We've got countless options to keep you inspired and in the zone. 🚀✨ If you love it (and we know you will), hit that ⭐ on our [official repo](https://github.com/BrunoCiccarino/nekonight). Your support means the world! 🌍
 
-![gif](https://github.com/BrunoCiccarino/nekonight/blob/main/img/neko-coffee.mp4)
 
 ## Credits
 - [Visual Studio Code TokyoNight](https://github.com/enkia/tokyo-night-vscode-theme)
