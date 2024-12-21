@@ -7,7 +7,7 @@
 
 Looking for a theme that fits your vibe? Whether you're into dark mode, light mode, or something in between, this **NekoNight** has got you covered. Written in [Lua](https://www.lua.org) for snappy performance, it's a buffet of color schemes for every taste and mood. 🍭 Want to boost your productivity *and* look good while coding? We've got countless options to keep you inspired and in the zone. 🚀✨ If you love it (and we know you will), hit that ⭐ on our [official repo](https://github.com/BrunoCiccarino/nekonight). Your support means the world! 🌍
 
-![gif](./img/neko-coffee.mp4)
+![gif](https://github.com/BrunoCiccarino/nekonight/blob/main/img/neko-coffee.mp4)
 
 ## Credits
 - [Visual Studio Code TokyoNight](https://github.com/enkia/tokyo-night-vscode-theme)
@@ -20,8 +20,88 @@ Looking for a theme that fits your vibe? Whether you're into dark mode, light mo
 
 <summary>🍭 Themes preview</summary>
 
-- [preview pack one](./doc/pack1.md)
-- [preview pack two](./doc/pack2.md)
+<table width="100%">
+  <tr>
+    <th>Moon</th>
+    <th>Storm</th>
+  </tr>
+  <tr>
+    <td width="50%">
+      <img src="https://user-images.githubusercontent.com/292349/190951628-10ba28a1-57ff-4479-8eab-47400a402242.png" />
+    </td>
+    <td width="50%">
+      <img src="https://user-images.githubusercontent.com/292349/115295095-3a9e5080-a10e-11eb-9aed-6054488c46ce.png" />
+    </td>
+  </tr>
+  <tr>
+    <th>Night</th>
+    <th>Day</th>
+  </tr>
+  <tr>
+    <td width="50%">
+      <img src="https://user-images.githubusercontent.com/292349/115295327-7afdce80-a10e-11eb-89b3-2591262bf95a.png" />
+    </td>
+    <td width="50%">
+      <img src="https://user-images.githubusercontent.com/292349/115996270-78c6c480-a593-11eb-8ed0-7d1400b058f5.png" />
+    </td>
+  </tr>
+  <tr>
+    <th>Mars</th>
+    <th>Nord</th>
+  </tr>
+  <tr>
+    <td width="50%">
+      <img src="./img/nekonightbrown.jpg" />
+    </td>
+    <td width="50%">
+      <img src="./img/neko-nord.jpg" />
+    </td>
+  </tr>
+  <tr>
+    <th>Shades of purple</th>
+    <th>Shades of purple dark</th>
+  </tr>
+  <tr>
+    <td width="50%">
+      <img src="./img/neko-shades-of-purple.jpg" />
+    </td>
+    <td width="50%">
+      <img src="./img/neko-shades-of-purple-dark.jpg" />
+    </td>
+  </tr>
+   <tr>
+    <th>OneDark</th>
+    <th>Fire Obsidian</th>
+  </tr>
+  <tr>
+    <td width="50%">
+      <img src="./img/neko-onedark.jpg"/>
+    </td>
+    <td width="50%">
+      <img src="./img/neko-fire-obsidian.jpg"/>
+    </td>
+  </tr>
+  <tr>
+    <th>Palenight</th>
+    <th>Noctis-Uva</th>
+  </tr>
+  <tr>
+    <td width="50%">
+      <img src="./img/neko-palenight.jpg"/>
+    </td>
+    <td width="50%">
+      <img src="./img/neko-noctis-uva.jpg"/>
+    </td>
+  </tr>
+    <tr>
+    <th>Gruvbox</th>
+  </tr>
+  <tr>
+    <td width="50%">
+      <img src="./img/neko-gruvbox.jpg"/>
+    </td>
+  </tr>
+  </table>
 
 ## ✨ Features
 
