@@ -40,7 +40,7 @@
 ;;; Code:
 
 (deftheme nekonight-moon
-  "Nekonight-Moon color theme for Emacs 24")
+  "Nekonight-Moon color theme for Emacs 24.")
 
 ;; Please, install rainbow-mode.
 ;; Colors with +x are lighter. Colors with -x are darker.
