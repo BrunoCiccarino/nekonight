@@ -13,7 +13,7 @@
       (nekonight-moon-bg+1      "#1e2030")
       (nekonight-moon-bg+2      "#191B29")
       (nekonight-moon-bg+3      "#191B29")
-      (nekonight-moon-bg+4      "#191B29")
+      (nekonight-moon-bg+4      "#636da6")
       (nekonight-moon-red-1     "#c73c3f")
       (nekonight-moon-red       "#f43841")
       (nekonight-moon-red+1     "#ff4f58")
