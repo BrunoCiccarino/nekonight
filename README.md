@@ -7,12 +7,6 @@
 
 Looking for a theme that fits your vibe? Whether you're into dark mode, light mode, or something in between, this **NekoNight** has got you covered. Written in [Lua](https://www.lua.org) for snappy performance, it's a buffet of color schemes for every taste and mood. 🍭 Want to boost your productivity *and* look good while coding? We've got countless options to keep you inspired and in the zone. 🚀✨ If you love it (and we know you will), hit that ⭐ on our [official repo](https://github.com/BrunoCiccarino/nekonight). Your support means the world! 🌍
 
-
-## Credits
-- [Visual Studio Code TokyoNight](https://github.com/enkia/tokyo-night-vscode-theme)
-- [tokyonight.nvim](https://github.com/folke/tokyonight.nvim)
-- [shades of purple](https://github.com/ahmadawais/shades-of-purple-vscode)
-
 > [!NOTE]
 > This theme is a fork of folke/tokyonight.nvim all rights reserved
 
@@ -109,7 +103,16 @@ Looking for a theme that fits your vibe? Whether you're into dark mode, light mo
 
   <details>
   <summary>🎨 emacs</summary>
-
+    <table width="100%">
+  <tr>
+    <th>Moon</th>
+  </tr>
+  <tr>
+    <td width="50%">
+      <img src="./img/neko-emacs-moon.jpg" />
+    </td>
+    </tr>
+</table>
   </details>
 
 ## ✨ Features
@@ -540,3 +543,8 @@ How to add a new extra template:
 4. Check the newly created themes in the `extra/` directory. Please **DO NOT**
    commit them, as they are already automatically built by the CI.
 
+## Credits
+- [Visual Studio Code TokyoNight](https://github.com/enkia/tokyo-night-vscode-theme)
+- [tokyonight.nvim](https://github.com/folke/tokyonight.nvim)
+- [shades of purple](https://github.com/ahmadawais/shades-of-purple-vscode)
+- [emacs gruber darker](https://github.com/rexim/gruber-darker-theme)
