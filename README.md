@@ -106,14 +106,33 @@ Looking for a theme that fits your vibe? Whether you're into dark mode, light mo
     <table width="100%">
   <tr>
     <th>Moon</th>
+    <th>Storm</th>
   </tr>
   <tr>
     <td width="50%">
       <img src="./img/neko-emacs-moon.jpg" />
     </td>
+    <td width="50%">
+      <img src="https://github.com/neko-night/emacs/blob/main/img/neko-emacs-storm.jpg"/>
+    </td>
     </tr>
 </table>
   </details>
+
+ <details>
+  <summary>🎨 sublime</summary>
+    <table width="100%">
+  <tr>
+    <th>Moon</th>
+  </tr>
+  <tr>
+    <td width="50%">
+      <img src="https://github.com/neko-night/sublime/blob/main/img/neko-sublime.jpg" />
+    </td>
+    </tr>
+</table>
+  </details>
+
 
 ## ✨ Features
 
