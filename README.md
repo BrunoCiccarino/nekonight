@@ -548,3 +548,7 @@ How to add a new extra template:
 - [tokyonight.nvim](https://github.com/folke/tokyonight.nvim)
 - [shades of purple](https://github.com/ahmadawais/shades-of-purple-vscode)
 - [emacs gruber darker](https://github.com/rexim/gruber-darker-theme)
+- [kanagawa.nvim](https://github.com/rebelot/kanagawa.nvim)
+- [norden.nvim](https://github.com/fcancelinha/nordern.nvim)
+- [noctis](https://github.com/liviuschera/noctis)
+- [vscode-palenight-theme](https://github.com/whizkydee/vscode-palenight-theme)
