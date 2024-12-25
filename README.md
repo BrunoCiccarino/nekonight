@@ -298,11 +298,21 @@ Install the theme with your preferred package manager, such as
 
 ```lua
 {
-  "BrunoCiccarino/nekonight.nvim",
+  "BrunoCiccarino/nekonight",
   lazy = false,
   priority = 1000,
   opts = {},
 }
+```
+
+using [packer.nvim](https://github.com/wbthomason/packer.nvim)
+```lua
+return require('packer').startup(function(use)
+    -- Other packages can be listed here...
+
+    -- NekoNight Theme
+  use 'BrunoCiccarino/nekonight'  
+end)
 ```
 
 ## 🚀 Usage
