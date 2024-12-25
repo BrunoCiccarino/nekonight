@@ -124,10 +124,26 @@ Looking for a theme that fits your vibe? Whether you're into dark mode, light mo
     <table width="100%">
   <tr>
     <th>Moon</th>
+    <th>Storm</th>
   </tr>
   <tr>
     <td width="50%">
       <img src="https://github.com/neko-night/sublime/blob/main/img/neko-sublime.jpg" />
+    </td>
+      <td width="50%">
+      <img src="https://github.com/neko-night/sublime/blob/main/img/neko-sublime-storm.jpg" />
+    </td>
+    </tr>
+  <tr>
+    <th>Nigh</th>
+    <th>Day</th>
+  </tr>
+  <tr>
+    <td width="50%">
+      <img src="https://github.com/neko-night/sublime/blob/main/img/neko-sublime-night.jpg" />
+    </td>
+      <td width="50%">
+      <img src="https://github.com/neko-night/sublime/blob/main/img/neko-sublime-day.jpg" />
     </td>
     </tr>
 </table>
