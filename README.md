@@ -200,8 +200,6 @@ Looking for a theme that fits your vibe? Whether you're into dark mode, light mo
 
 </details>
 
-
-
 <details>
 <summary>🎨 nekonight-storm palette</summary>
 
@@ -238,10 +236,12 @@ Looking for a theme that fits your vibe? Whether you're into dark mode, light mo
 | Teal                 | #1abc9c | 26 188 156  | 168° 75% 42%  |
 | Terminal Black       | #414868 | 65 72 104   | 227° 23% 33%  |
 | Yellow               | #e0af68 | 224 175 104 | 34° 69% 64%   |
+
 </details>
 
 <details>
 <summary>🎨 nekonight-moon palette</summary>
+
 | Palette              | Hex     | RGB | HSL |
 |----------------------|---------|-----|-----|
 | Background           | #222436 | N/A | N/A |
