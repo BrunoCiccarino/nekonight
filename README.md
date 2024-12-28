@@ -160,6 +160,127 @@ Looking for a theme that fits your vibe? Whether you're into dark mode, light mo
   [extras](#-extras) for numerous other applications.
 
 <details>
+<summary>🎨 nekonight-dracula palette</summary>
+
+| Palette            | Hex     | RGB | HSL |
+|--------------------|---------|-----|-----|
+| Background         | #282a36 | N/A | N/A |
+| Background Dark    | #282a36 | N/A | N/A |
+| Background Dark1   | #282a36 | N/A | N/A |
+| Blue               | #7aa2f7 | N/A | N/A |
+| Blue0              | #3d59a1 | N/A | N/A |
+| Blue1              | #2ac3de | N/A | N/A |
+| Blue2              | #0db9d7 | N/A | N/A |
+| Blue5              | #89ddff | N/A | N/A |
+| Blue6              | #b4f9f8 | N/A | N/A |
+| Blue7              | #394b70 | N/A | N/A |
+| Comment            | #6272a4 | N/A | N/A |
+| Cyan               | #7dcfff | N/A | N/A |
+| Dark3              | #545c7e | N/A | N/A |
+| Dark5              | #737aa2 | N/A | N/A |
+| Foreground         | #c0caf5 | N/A | N/A |
+| Foreground Gruvbox | #f9f5d7 | N/A | N/A |
+| Foreground Dark    | #a9b1d6 | N/A | N/A |
+| Foreground Gutter  | #3b4261 | N/A | N/A |
+| Green              | #50fa7b | N/A | N/A |
+| Green1             | #73daca | N/A | N/A |
+| Green2             | #41a6b5 | N/A | N/A |
+| Magenta            | #bb9af7 | N/A | N/A |
+| Magenta2           | #ff007c | N/A | N/A |
+| Orange             | #ff9e64 | N/A | N/A |
+| Purple             | #ff79c6 | N/A | N/A |
+| Red                | #f7768e | N/A | N/A |
+| Red1               | #db4b4b | N/A | N/A |
+| Teal               | #1abc9c | N/A | N/A |
+| Terminal Black     | #414868 | N/A | N/A |
+| Yellow             | #e0af68 | N/A | N/A |
+| Git Add            | #449dab | N/A | N/A |
+| Git Change         | #6183bb | N/A | N/A |
+| Git Delete         | #914c54 | N/A | N/A |
+
+</details>
+
+
+
+<details>
+<summary>🎨 nekonight-storm palette</summary>
+
+| Palette              | Hex     | RGB         | HSL           |
+|----------------------|---------|-------------|---------------|
+| Background           | #24283b | 36 40 59    | 225° 25% 19%  |
+| Background Dark      | #1f2335 | 31 35 53    | 228° 25% 17%  |
+| Background Dark1     | #1b1e2d | 27 30 45    | 229° 25% 14%  |
+| Background Highlight | #292e42 | 41 46 66    | 230° 23% 21%  |
+| Blue                 | #7aa2f7 | 122 162 247 | 223° 89% 73%  |
+| Blue0                | #3d59a1 | 61 89 161   | 224° 45% 44%  |
+| Blue1                | #2ac3de | 42 195 222  | 189° 78% 52%  |
+| Blue2                | #0db9d7 | 13 185 215  | 191° 88% 45%  |
+| Blue5                | #89ddff | 137 221 255 | 197° 100% 77% |
+| Blue6                | #b4f9f8 | 180 249 248 | 179° 88% 84%  |
+| Blue7                | #394b70 | 57 75 112   | 220° 33% 33%  |
+| Comment              | #565f89 | 86 95 137   | 227° 22% 44%  |
+| Cyan                 | #7dcfff | 125 207 255 | 202° 100% 75% |
+| Dark3                | #545c7e | 84 92 126   | 227° 20% 41%  |
+| Dark5                | #737aa2 | 115 122 162 | 227° 20% 54%  |
+| Foreground           | #c0caf5 | 192 202 245 | 226° 68% 86%  |
+| Foreground Gruvbox   | #f9f5d7 | 249 245 215 | 53° 75% 91%   |
+| Foreground Dark      | #a9b1d6 | 169 177 214 | 225° 39% 75%  |
+| Foreground Gutter    | #3b4261 | 59 66 97    | 227° 24% 31%  |
+| Green                | #9ece6a | 158 206 106 | 91° 51% 61%   |
+| Green1               | #73daca | 115 218 202 | 173° 58% 65%  |
+| Green2               | #41a6b5 | 65 166 181  | 189° 47% 48%  |
+| Magenta              | #bb9af7 | 187 154 247 | 261° 85% 79%  |
+| Magenta2             | #ff007c | 255 0 124   | 330° 100% 50% |
+| Orange               | #ff9e64 | 255 158 100 | 22° 100% 70%  |
+| Purple               | #9d7cd8 | 157 124 216 | 262° 56% 67%  |
+| Red                  | #f7768e | 247 118 142 | 351° 87% 72%  |
+| Red1                 | #db4b4b | 219 75 75   | 0° 65% 58%    |
+| Teal                 | #1abc9c | 26 188 156  | 168° 75% 42%  |
+| Terminal Black       | #414868 | 65 72 104   | 227° 23% 33%  |
+| Yellow               | #e0af68 | 224 175 104 | 34° 69% 64%   |
+</details>
+
+<details>
+<summary>🎨 nekonight-moon palette</summary>
+| Palette              | Hex     | RGB | HSL |
+|----------------------|---------|-----|-----|
+| Background           | #222436 | N/A | N/A |
+| Background Dark      | #1e2030 | N/A | N/A |
+| Background Dark1     | #191B29 | N/A | N/A |
+| Background Highlight | #2f334d | N/A | N/A |
+| Blue                 | #82aaff | N/A | N/A |
+| Blue0                | #3e68d7 | N/A | N/A |
+| Blue1                | #65bcff | N/A | N/A |
+| Blue2                | #0db9d7 | N/A | N/A |
+| Blue5                | #89ddff | N/A | N/A |
+| Blue6                | #b4f9f8 | N/A | N/A |
+| Blue7                | #394b70 | N/A | N/A |
+| Comment              | #636da6 | N/A | N/A |
+| Cyan                 | #86e1fc | N/A | N/A |
+| Dark3                | #545c7e | N/A | N/A |
+| Dark5                | #737aa2 | N/A | N/A |
+| Foreground           | #c8d3f5 | N/A | N/A |
+| Foreground Dark      | #828bb8 | N/A | N/A |
+| Foreground Gutter    | #3b4261 | N/A | N/A |
+| Green                | #c3e88d | N/A | N/A |
+| Green1               | #4fd6be | N/A | N/A |
+| Green2               | #41a6b5 | N/A | N/A |
+| Magenta              | #c099ff | N/A | N/A |
+| Magenta2             | #ff007c | N/A | N/A |
+| Orange               | #ff966c | N/A | N/A |
+| Purple               | #fca7ea | N/A | N/A |
+| Red                  | #ff757f | N/A | N/A |
+| Red1                 | #c53b53 | N/A | N/A |
+| Teal                 | #4fd6be | N/A | N/A |
+| Terminal Black       | #444a73 | N/A | N/A |
+| Yellow               | #ffc777 | N/A | N/A |
+| Git Add              | #b8db87 | N/A | N/A |
+| Git Change           | #7ca1f2 | N/A | N/A |
+| Git Delete           | #e26a75 | N/A | N/A |
+
+</details>
+
+<details>
 <summary>🎨 Supported Plugins</summary>
 
 <!-- plugins:start -->
