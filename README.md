@@ -91,11 +91,16 @@ Looking for a theme that fits your vibe? Whether you're into dark mode, light mo
   </tr>
     <tr>
     <th>Gruvbox</th>
+    <th>Dracula</th>
   </tr>
   <tr>
     <td width="50%">
       <img src="./img/neko-gruvbox.jpg"/>
     </td>
+     <td width="50%">
+      <img src="./img/nekonight-dracula"/>
+    </td>
+
   </tr>
   </table>
 
