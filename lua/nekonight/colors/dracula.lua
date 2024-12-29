@@ -30,7 +30,7 @@ return vim.tbl_deep_extend("force", ret, {
   red = "#f7768e",
   red1 = "#db4b4b",
   teal = "#1abc9c",
-  terminal_black = "#414868",
+  terminal_black = "#282a36",
   yellow = "#e0af68",
   git = {
     add = "#449dab",
