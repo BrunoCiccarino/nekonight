@@ -100,7 +100,18 @@ Looking for a theme that fits your vibe? Whether you're into dark mode, light mo
      <td width="50%">
       <img src="./img/neko-dracula"/>
     </td>
-
+  </tr>
+    <tr>
+    <th>Doom One</th>
+    <th>Zenburn</th>
+  </tr>
+  <tr>
+    <td width="50%">
+      <img src="./img/neko-doom-one.jpg"/>
+    </td>
+     <td width="50%">
+      <img src="./img/neko-zenburn.jpg"/>
+    </td>
   </tr>
   </table>
 
