@@ -142,55 +142,6 @@ Looking for a theme that fits your vibe? Whether you're into dark mode, light mo
   </tr>
   </table>
 
-  <details>
-  <summary>🎨 emacs</summary>
-    <table width="100%">
-  <tr>
-    <th>Moon</th>
-    <th>Storm</th>
-  </tr>
-  <tr>
-    <td width="50%">
-      <img src="./img/neko-emacs-moon.jpg" />
-    </td>
-    <td width="50%">
-      <img src="https://github.com/neko-night/emacs/blob/main/img/neko-emacs-storm.jpg"/>
-    </td>
-    </tr>
-</table>
-  </details>
-
- <details>
-  <summary>🎨 sublime</summary>
-    <table width="100%">
-  <tr>
-    <th>Moon</th>
-    <th>Storm</th>
-  </tr>
-  <tr>
-    <td width="50%">
-      <img src="https://github.com/neko-night/sublime/blob/main/img/neko-sublime.jpg" />
-    </td>
-      <td width="50%">
-      <img src="https://github.com/neko-night/sublime/blob/main/img/neko-sublime-storm.jpg" />
-    </td>
-    </tr>
-  <tr>
-    <th>Nigh</th>
-    <th>Day</th>
-  </tr>
-  <tr>
-    <td width="50%">
-      <img src="https://github.com/neko-night/sublime/blob/main/img/neko-sublime-night.jpg" />
-    </td>
-      <td width="50%">
-      <img src="https://github.com/neko-night/sublime/blob/main/img/neko-sublime-day.jpg" />
-    </td>
-    </tr>
-</table>
-  </details>
-
-
 ## ✨ Features
 
 - Supports the latest [Neovim](https://github.com/neovim/neovim)
@@ -199,47 +150,6 @@ Looking for a theme that fits your vibe? Whether you're into dark mode, light mo
 - Supports all major plugins.
 - Provides [NekoNight](https://github.com/BrunoCiccarino/nekonight)
   [extras](#-extras) for numerous other applications.
-
-<details>
-<summary>🎨 nekonight-dracula palette</summary>
-
-| Palette            | Hex     | RGB | HSL |
-|--------------------|---------|-----|-----|
-| Background         | #282a36 | N/A | N/A |
-| Background Dark    | #282a36 | N/A | N/A |
-| Background Dark1   | #282a36 | N/A | N/A |
-| Blue               | #7aa2f7 | N/A | N/A |
-| Blue0              | #3d59a1 | N/A | N/A |
-| Blue1              | #2ac3de | N/A | N/A |
-| Blue2              | #0db9d7 | N/A | N/A |
-| Blue5              | #89ddff | N/A | N/A |
-| Blue6              | #b4f9f8 | N/A | N/A |
-| Blue7              | #394b70 | N/A | N/A |
-| Comment            | #6272a4 | N/A | N/A |
-| Cyan               | #7dcfff | N/A | N/A |
-| Dark3              | #545c7e | N/A | N/A |
-| Dark5              | #737aa2 | N/A | N/A |
-| Foreground         | #c0caf5 | N/A | N/A |
-| Foreground Gruvbox | #f9f5d7 | N/A | N/A |
-| Foreground Dark    | #a9b1d6 | N/A | N/A |
-| Foreground Gutter  | #3b4261 | N/A | N/A |
-| Green              | #50fa7b | N/A | N/A |
-| Green1             | #73daca | N/A | N/A |
-| Green2             | #41a6b5 | N/A | N/A |
-| Magenta            | #bb9af7 | N/A | N/A |
-| Magenta2           | #ff007c | N/A | N/A |
-| Orange             | #ff9e64 | N/A | N/A |
-| Purple             | #ff79c6 | N/A | N/A |
-| Red                | #f7768e | N/A | N/A |
-| Red1               | #db4b4b | N/A | N/A |
-| Teal               | #1abc9c | N/A | N/A |
-| Terminal Black     | #414868 | N/A | N/A |
-| Yellow             | #e0af68 | N/A | N/A |
-| Git Add            | #449dab | N/A | N/A |
-| Git Change         | #6183bb | N/A | N/A |
-| Git Delete         | #914c54 | N/A | N/A |
-
-</details>
 
 <details>
 <summary>🎨 nekonight-storm palette</summary>
@@ -277,47 +187,6 @@ Looking for a theme that fits your vibe? Whether you're into dark mode, light mo
 | Teal                 | #1abc9c | 26 188 156  | 168° 75% 42%  |
 | Terminal Black       | #414868 | 65 72 104   | 227° 23% 33%  |
 | Yellow               | #e0af68 | 224 175 104 | 34° 69% 64%   |
-
-</details>
-
-<details>
-<summary>🎨 nekonight-moon palette</summary>
-
-| Palette              | Hex     | RGB | HSL |
-|----------------------|---------|-----|-----|
-| Background           | #222436 | N/A | N/A |
-| Background Dark      | #1e2030 | N/A | N/A |
-| Background Dark1     | #191B29 | N/A | N/A |
-| Background Highlight | #2f334d | N/A | N/A |
-| Blue                 | #82aaff | N/A | N/A |
-| Blue0                | #3e68d7 | N/A | N/A |
-| Blue1                | #65bcff | N/A | N/A |
-| Blue2                | #0db9d7 | N/A | N/A |
-| Blue5                | #89ddff | N/A | N/A |
-| Blue6                | #b4f9f8 | N/A | N/A |
-| Blue7                | #394b70 | N/A | N/A |
-| Comment              | #636da6 | N/A | N/A |
-| Cyan                 | #86e1fc | N/A | N/A |
-| Dark3                | #545c7e | N/A | N/A |
-| Dark5                | #737aa2 | N/A | N/A |
-| Foreground           | #c8d3f5 | N/A | N/A |
-| Foreground Dark      | #828bb8 | N/A | N/A |
-| Foreground Gutter    | #3b4261 | N/A | N/A |
-| Green                | #c3e88d | N/A | N/A |
-| Green1               | #4fd6be | N/A | N/A |
-| Green2               | #41a6b5 | N/A | N/A |
-| Magenta              | #c099ff | N/A | N/A |
-| Magenta2             | #ff007c | N/A | N/A |
-| Orange               | #ff966c | N/A | N/A |
-| Purple               | #fca7ea | N/A | N/A |
-| Red                  | #ff757f | N/A | N/A |
-| Red1                 | #c53b53 | N/A | N/A |
-| Teal                 | #4fd6be | N/A | N/A |
-| Terminal Black       | #444a73 | N/A | N/A |
-| Yellow               | #ffc777 | N/A | N/A |
-| Git Add              | #b8db87 | N/A | N/A |
-| Git Change           | #7ca1f2 | N/A | N/A |
-| Git Delete           | #e26a75 | N/A | N/A |
 
 </details>
 
@@ -699,28 +568,6 @@ set -as terminal-overrides ',*:Setulc=\E[58::2::::%p1%{65536}%/%d::%p1%{256}%/%{
 
 </details>
 
-## 🍭 Extras
-
-Extra color configs for [Kitty](https://sw.kovidgoyal.net/kitty/conf.html),
-[Alacritty](https://github.com/alacritty/alacritty),
-[Fish](https://fishshell.com/docs/current/index.html), [WezTerm](https://wezfurlong.org/wezterm/config/files.html),
-[iTerm](https://iterm2.com/) and [foot](https://codeberg.org/dnkl/foot) can be
-found in [extras](extras/). To use them, refer to their respective
-documentation.
-
-![image](https://user-images.githubusercontent.com/292349/115395546-d8d6f880-a198-11eb-98fb-a1194787701d.png)
-
-You can easily use the color palette for other plugins inside your
-[Neovim](https://github.com/neovim/neovim) configuration:
-
-```lua
-local colors = require("nekonight.colors").setup() -- pass in any of the config options as explained above
-local util = require("nekonight.util")
-
-aplugin.background = colors.bg_dark
-aplugin.my_error = util.lighten(colors.red1, 0.3) -- number between 0 and 1. 0 results in white, 1 results in red1
-```
-
 ## 🔥 Contributing
 
 Pull requests are welcome.
@@ -750,7 +597,8 @@ How to add a new extra template:
 4. Check the newly created themes in the `extra/` directory. Please **DO NOT**
    commit them, as they are already automatically built by the CI.
 
-## Credits
+## 👏 Acknowledgements 
+
 - [Visual Studio Code TokyoNight](https://github.com/enkia/tokyo-night-vscode-theme)
 - [tokyonight.nvim](https://github.com/folke/tokyonight.nvim)
 - [shades of purple](https://github.com/ahmadawais/shades-of-purple-vscode)
@@ -761,3 +609,5 @@ How to add a new extra template:
 - [vscode-palenight-theme](https://github.com/whizkydee/vscode-palenight-theme)
 - [Zenburn emacs](https://github.com/bbatsov/zenburn-emacs)
 - [doom one](https://github.com/doomemacs/themes/blob/master/themes/doom-one-theme.el)
+- [material theme jetbrains](https://github.com/ChrisRM/material-theme-jetbrains)
+- [SynthWave '84](https://github.com/robb0wen/synthwave-vscode)
