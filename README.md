@@ -98,7 +98,7 @@ Looking for a theme that fits your vibe? Whether you're into dark mode, light mo
       <img src="./img/neko-gruvbox.jpg"/>
     </td>
      <td width="50%">
-      <img src="./img/neko-dracula"/>
+      <img src="./img/neko-dracula.jpg"/>
     </td>
   </tr>
     <tr>
