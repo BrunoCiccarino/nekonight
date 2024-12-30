@@ -1,14 +1,7 @@
 # Changelog
 
+- [0.0.3] 2024/12/30
 
-- [0.0.2] 2024/12/20
-
-### Added
-
-- OneDark
-- Fire Obsidian
-- Palenight
-- Noctis Uva
 - gruvbox 
 - dracula
 - doom one 
@@ -19,6 +12,16 @@
 - Synthwave
 
 - support to fugit2 plugin 
+
+
+- [0.0.2] 2024/12/20
+
+### Added
+
+- OneDark
+- Fire Obsidian
+- Palenight
+- Noctis Uva
 
 
 ## [0.0.1] Forked
