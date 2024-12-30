@@ -13,8 +13,7 @@ Looking for a theme that fits your vibe? Whether you're into dark mode, light mo
 
 ## 🍭 Themes preview 
  
-<details>
-<summary>🎨 neovim</summary>
+### 🎨 neovim
 
 <table width="100%">
   <tr>
@@ -113,9 +112,19 @@ Looking for a theme that fits your vibe? Whether you're into dark mode, light mo
       <img src="./img/neko-zenburn.jpg"/>
     </td>
   </tr>
+      <tr>
+    <th>Material theme</th>
+    <th>Arcdark</th>
+  </tr>
+  <tr>
+    <td width="50%">
+      <img src="./img/neko-doom-one.jpg"/>
+    </td>
+     <td width="50%">
+      <img src="./img/neko-zenburn.jpg"/>
+    </td>
+  </tr>
   </table>
-
-  </details>
 
   <details>
   <summary>🎨 emacs</summary>
