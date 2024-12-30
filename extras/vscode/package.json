@@ -1,81 +1,50 @@
 {
   "name": "nekonight",
-  "displayName": "Neko Night",
-  "description": "Neko Night theme for VS Code",
+  "displayName": "nekonight ",
+  "description": "✨ Looking for a theme that fits your vibe? Whether you're into dark mode, light mode, or something in between, this NekoNight has got you covered. For snappy performance, it's a buffet of color schemes for every taste and mood. 🍭",
   "version": "0.0.1",
   "publisher": "BrunoCiccarino",
-  "license": "MIT",
-  "galleryBanner": {
-    "color": "#1b1f23",
-    "theme": "dark"
+  "author": "Bruno Ciccarino",
+  "icon": "icon.png",
+  "bugs": {
+    "url": "https://github.com/BrunoCiccarino/nekonight-vscode/issues"
   },
   "repository": {
-    "type": "git",
-    "url": "https://github.com/BrunoCiccarino/nekonight"
-  },
-  "bugs": {
-    "url": "https://github.com/BrunoCiccarino/nekonight/issues"
+      "type": "git",
+      "url": "https://github.com/BrunoCiccarino/nekonight-vscode"
   },
   "engines": {
-    "vscode": "^1.43.0"
+    "vscode": "^1.96.0"
   },
   "categories": [
     "Themes"
   ],
   "keywords": [
+    "retro",
+    "80s",
+    "nekonight",
+    "one dark",
+    "onedark",
+    "one dark pro",
+    "onedark pro",
     "theme",
-    "github",
-    "light",
+    "atom",
+    "shades of purple",
+    "Shades Of Purple",
+    "tokyo night",
+    "tokyonight",
+    "zenburn",
+    "zen",
     "dark",
-    "protanopia",
-    "colorblind"
-  ],
+    "low contrast"
+],
   "contributes": {
     "themes": [
       {
-        "label": "Tokyo Night Light",
-        "uiTheme": "vs",
-        "path": "./themes/light-default.json"
-      },
-      {
-        "label": "Tokyo Night",
-        "uiTheme": "hc-light",
-        "path": "./themes/tokyo-night-color-theme.json"
-      },
-      {
-        "label": "Tokyo Night Storm",
-        "uiTheme": "vs",
-        "path": "./themes/tokyo-night-storm-color-theme.json"
-      },
-      {
-        "label": "Neko Dark",
+        "label": "nekonight",
         "uiTheme": "vs-dark",
-        "path": "./themes/dark.json"
+        "path": "./themes/nekonight-color-theme.json"
       }
     ]
-  },
-  "devDependencies": {
-    "@changesets/changelog-github": "^0.4.1",
-    "@changesets/cli": "^2.17.0",
-    "@primer/primitives": "7.10.0",
-    "chroma-js": "^2.1.2",
-    "color": "^3.1.2",
-    "nodemon": "^2.0.3",
-    "vsce": "^1.100.1"
-  },
-  "scripts": {
-    "start": "nodemon --watch src src/index.js",
-    "build": "node src/index.js && mkdir -p build",
-    "package": "vsce package -o ./build/github-vscode-theme.vsix",
-    "prepublishOnly": "npm run build && vsce publish",
-    "release": "changeset publish"
-  },
-  "__metadata": {
-    "id": "7328a705-91fc-49e6-8293-da6f112e482d",
-    "publisherDisplayName": "GitHub",
-    "publisherId": "7c1c19cd-78eb-4dfb-8999-99caf7679002"
-  },
-  "publishConfig": {
-    "access": "public"
   }
 }
