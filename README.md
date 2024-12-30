@@ -734,3 +734,5 @@ How to add a new extra template:
 - [norden.nvim](https://github.com/fcancelinha/nordern.nvim)
 - [noctis](https://github.com/liviuschera/noctis)
 - [vscode-palenight-theme](https://github.com/whizkydee/vscode-palenight-theme)
+- [Zenburn emacs](https://github.com/bbatsov/zenburn-emacs)
+- [doom one](https://github.com/doomemacs/themes/blob/master/themes/doom-one-theme.el)
