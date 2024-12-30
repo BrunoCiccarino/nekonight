@@ -3,8 +3,8 @@ local ret = vim.deepcopy(require("nekonight.colors.storm"))
 ---@type Palette
 return vim.tbl_deep_extend("force", ret, {
   bg = "#263238",
-  bg_dark = "#32424A",
-  bg_dark1 = "#1E272C",
+  bg_dark = "#1E272C",
+  bg_dark1 = "#32424A",
   bg_highlight = "#546E7A",
    blue = "#82aaff",
   blue0 = "#3d59a1",
