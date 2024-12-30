@@ -26,7 +26,7 @@ return vim.tbl_deep_extend("force", ret, {
   fg = "#c0caf5",
   fg_gruvbox ="#f9f5d7",
   fg_dark = "#a9b1d6",
-  fg_gutter = "#3b4261",
+  fg_gutter = "#b4f9f8",
   green = "#cc9393",
   green1 = "#73daca",
   green2 = "#4894c8",
