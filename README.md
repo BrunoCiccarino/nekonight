@@ -124,6 +124,18 @@ Looking for a theme that fits your vibe? Whether you're into dark mode, light mo
       <img src="./img/neko-arcdark.jpg"/>
     </td>
   </tr>
+  <tr>
+    <th>Moonlight</th>
+    <th>Synthwave</th>
+  </tr>
+  <tr>
+    <td width="50%">
+      <img src="./img/neko-moonlight.jpg"/>
+    </td>
+     <td width="50%">
+      <img src="./img/neko-synthwave.jpg"/>
+    </td>
+  </tr>
   </table>
 
   <details>
