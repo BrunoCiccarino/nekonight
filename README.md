@@ -118,10 +118,10 @@ Looking for a theme that fits your vibe? Whether you're into dark mode, light mo
   </tr>
   <tr>
     <td width="50%">
-      <img src="./img/neko-doom-one.jpg"/>
+      <img src="./img/neko-material-theme.jpg"/>
     </td>
      <td width="50%">
-      <img src="./img/neko-zenburn.jpg"/>
+      <img src="./img/neko-arcdark.jpg"/>
     </td>
   </tr>
   </table>
