@@ -1,4 +1,13 @@
-# 🏙 Neko Night
+
+<h1 align="center">
+  <br>
+  <a href="https://github.com/BrunoCiccarino/nekonight">
+    <img src="./icon.png" width="600" height="400">
+  </a>
+  <br>
+  🏙 Nekonight
+  <br>
+</h1>
 
 
 ![lua](https://img.shields.io/badge/made_with-lua-code?style=for-the-badge&logo=lua&color=%23789DBC) 
