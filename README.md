@@ -159,6 +159,15 @@ Looking for a theme that fits your vibe? Whether you're into dark mode, light mo
       <img src="./img/neko-synthwave.jpg"/>
     </td>
   </tr>
+    <tr>
+    <th>Space</th>
+  </tr>
+  <tr>
+    <td width="50%">
+      <img src="./img/neko-space.jpg"/>
+    </td>
+  </tr>
+
   </table>
 
 ## ✨ Features
