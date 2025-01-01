@@ -161,12 +161,25 @@ Looking for a theme that fits your vibe? Whether you're into dark mode, light mo
   </tr>
     <tr>
     <th>Space</th>
+    <th>Aurora</th>
+  </tr>
+  <tr>
+    <td width="50%">
+      <img src="./img/neko-space.jpg"/>
+    </td>
+    <td width="50%">
+      <img src="./img/neko-aurora.jpg"/>
+    </td>
+  </tr>
+    <tr>
+    <th>OneDark Deep</th>
   </tr>
   <tr>
     <td width="50%">
       <img src="./img/neko-space.jpg"/>
     </td>
   </tr>
+
 
   </table>
 
