@@ -1,0 +1,41 @@
+local ret = vim.deepcopy(require("nekonight.colors.storm"))
+
+---@type Palette
+return vim.tbl_deep_extend("force", ret, {
+  bg = "#21283b",
+  bg_dark = "#1a212e",
+  bg_dark1 = "#393f4a",
+  bg_highlight = "#5c6370",
+  blue = "#41a7fc",
+  blue0 = "#3e68d7",
+  blue1 = "#65bcff",
+  blue2 = "#0db9d7",
+  blue5 = "#89ddff",
+  blue6 = "#b4f9f8",
+  blue7 = "#394b70",
+  comment = "#636da6",
+  cyan = "#34bfd0",
+  dark3 = "#545c7e",
+  dark5 = "#737aa2",
+  fg = "#93a4c3",
+  fg_dark = "#828bb8",
+  fg_gutter = "#3b4261",
+  green = "#8bcd5b",
+  green1 = "#4fd6be",
+  green2 = "#41a6b5",
+  magenta = "#c099ff",
+  magenta2 = "#ff007c",
+  orange = "#dd9046",
+  purple = "#c75ae8",
+  red = "#f65866",
+  red1 = "#c53b53",
+  teal = "#4fd6be",
+  terminal_black = "#444a73",
+  yellow = "#efbd5d",
+  git = {
+    add = "#b8db87",
+    change = "#7ca1f2",
+    delete = "#e26a75",
+  },
+})
+
