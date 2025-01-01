@@ -176,7 +176,7 @@ Looking for a theme that fits your vibe? Whether you're into dark mode, light mo
   </tr>
   <tr>
     <td width="50%">
-      <img src="./img/neko-space.jpg"/>
+      <img src="./img/neko-onedark-deep.jpg"/>
     </td>
   </tr>
 
