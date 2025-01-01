@@ -1,6 +1,6 @@
 {
 	"author": "Bruno Ciccarino",
-	"name": "nekonight",
+	"name": "deep ocean",
 	"colors": {
 		"editor.background": "#0F111A",
 		"editor.foreground": "#a9b1d6",
@@ -48,13 +48,17 @@
         "editorInfo.foreground": "#5186b6",
         "editorInfo.background": "#4490BF00",
         "editorInfo.border": "#4490BF00",
-		"activityBarBadge.background": "#090B10",
-		"sideBarTitle.foreground": "#bbbbbb",
-        "list.activeSelectionBackground": "#5186b6",
-		"list.inactiveSelectionBackground": "#5186b6",
-		"list.focusBackground": "#5186b6",
-		"list.dropBackground": "#0F111A",
-		"list.highlightForeground": "#b1e2ff",
+		"sideBarTitle.foreground": "#bbbbbb",		"list.activeSelectionBackground": "#82d8d844",
+		"list.activeSelectionForeground": "#fff",
+		"list.dropBackground": "#191324",
+		"list.focusBackground": "#82d8d844",
+		"list.focusForeground": "#eee",
+		"list.highlightForeground": "#fff",
+		"list.hoverBackground": "#374464",
+		"list.hoverForeground": "#c7edff",
+		"list.inactiveSelectionBackground": "#191324",
+		"list.inactiveSelectionForeground": "#82d8d8aa",
+		"list.deemphasizedForeground": "#82d8d8aa",
 		"statusBar.background": "#090B10",
 		"menubar.selectionForeground": "#ffffff",
 		"menubar.selectionBackground": "#292c3e",
@@ -71,6 +75,7 @@
 		"activityBar.foreground": "#b1e2ff",
 		"activityBar.background": "#090B10",
 		"activityBar.inactiveForeground": "#fdfdff66",
+		"activityBarBadge.background": "#090B10",
 		"activityBarBadge.foreground": "#f7f7f7",
 		"activityBarBadge.background": "#007acc",
 		"activityBar.border": "#000000",
@@ -83,16 +88,41 @@
 		"sideBar.border": "#000000",
 		"titleBar.activeBackground": "#090B10",
 		"titleBar.inactiveBackground": "#090B10",
+		
 		"tab.activeBackground": "#0F111A",
 		"tab.inactiveBackground": "#090B10",
-		"tab.border": "#0F111A",
+		"tab.border": "#222436",
+		"tab.activeForeground": "#9EFFFF",
+        "tab.hoverForeground": "#dadce3",
+        "tab.hoverBackground": "#222436",
+        "tab.activeBorder": "#9EFFFF",
+        "tab.selectedBackground": "#363c4d",
+        "tab.inactiveForeground": "#9EFFFF",
+        "tab.unfocusedActiveForeground": "#363c4d",
+        "tab.unfocusedInactiveForeground": "#363c4d",
+        "tab.unfocusedHoverForeground": "#363c4d",
+        "tab.activeModifiedBorder": "#e6e7ed",
+        "tab.inactiveModifiedBorder": "#e6e7ed",
+        "tab.unfocusedActiveBorder": "#9da0ab",
+        "tab.lastPinnedBorder": "#dadbe0",
+		
+		
 		"editor.snippetTabstopHighlightBackground": "#6943ff62",
 		"editor.snippetTabstopHighlightBorder": "#6943ff62",
 		"editor.snippetFinalTabstopHighlightBackground": "#6943ff62",
 		"editor.snippetFinalTabstopHighlightBorder": "#6943ff62",
 		"editorGroupHeader.border": "#1d1d21",
 		"editorGroupHeader.tabsBackground": "#0F111A",
-		"editorGroupHeader.tabsBorder": "#ff787800"
+		"editorGroupHeader.tabsBorder": "#ff787800",
+
+        "notifications.background": "#0F111A",
+        "notifications.foreground": "#9EFFFF",
+        "notificationLink.foreground": "#994cc3",
+        "notifications.border": "#CCCCCC",
+        "notificationCenter.border": "#CCCCCC",
+        "notificationToast.border": "#CCCCCC",
+        "notificationCenterHeader.foreground": "#9EFFFF",
+        "notificationCenterHeader.background": "#0F111A"
 	},
 	"tokenColors": [
 		{
@@ -143,7 +173,7 @@
 				"storage.modifier"
 			],
 			"settings": {
-				"foreground": "#C792EA"
+				"foreground": "#FAD000"
 			}
 		},
 		{
@@ -710,6 +740,209 @@
 			],
 			"settings": {
 				"foreground": "#EEFFFF"
+			}
+		},
+        {
+			"name": "[JAVASCRIPT] - Color for Storage Type Function",
+			"scope": "source.js storage.type.function",
+			"settings": {
+				"foreground": "#FB94FF"
+			}
+		},
+		{
+			"name": "[JAVASCRIPT] - Color for Variable Language",
+			"scope": "variable.language, entity.name.type.class.js",
+			"settings": {
+				"foreground": "#FB94FF"
+			}
+		},
+		{
+			"name": "[JAVASCRIPT] - Color for Inherited Component",
+			"scope": ["entity.other.inherited-class"],
+			"settings": {
+				"foreground": "#FFEE80"
+			}
+		},
+		{
+			"name": "[JAVASCRIPT] - Color for React Extends keyword",
+			"scope": ["storage.type.extends.js", "storage.type.class.jsdoc"],
+			"settings": {
+				"foreground": "#FF9D00"
+			}
+		},
+		{
+			"name": "[JAVASCRIPT] — Docs Keywords",
+			"scope": "punctuation.definition.block.tag.jsdoc",
+			"settings": {
+				"foreground": "#FF9D00"
+			}
+		},
+		{
+			"name": "[JAVASCRIPT] — Doc Var Types",
+			"scope": ["variable.other.jsdoc", "entity.name.type.instance.jsdoc"],
+			"settings": {
+				"foreground": "#9EFFFF"
+			}
+		},
+		{
+			"name": "[JAVASCRIPT] — Var Types",
+			"scope": ["variable.other.constant"],
+			"settings": {
+				"foreground": "#9EFFFF"
+			}
+		},
+		{
+			"name": "[JAVASCRIPT REACT] — JSX HTML",
+			"scope": ["punctuation.definition.tag.begin.js", "punctuation.definition.tag.end.js"],
+			"settings": {
+				"foreground": "#9EFFFF"
+			}
+		},
+		{
+			"name": "[JAVASCRIPT REACT] — JSX HTML Children Text",
+			"scope": "meta.jsx.children.js",
+			"settings": {
+				"foreground": "#FFFFFF"
+			}
+		},
+		{
+			"name": "[JAVASCRIPT] — Storage types",
+			"scope": ["storage.type", "storage.type.class", "storage.modifier", "keyword.control", "keyword.operator"],
+			"settings": {
+				"foreground": "#FF9D00"
+			}
+		},
+		{
+			"name": "[JAVASCRIPT] — Docs Useless stuff",
+			"scope": "punctuation.definition.bracket.curly",
+			"settings": {
+				"foreground": "#494685"
+			}
+		},
+		{
+			"name": "Typescript React Assignment Operator",
+			"scope": ["keyword.operator.assignment.tsx", "keyword.operator.assignment.jsx"],
+			"settings": {
+				"foreground": "#FF9D00"
+			}
+		},
+		{
+			"name": "[JAVASCRIPT] Keyword Operator Assignment",
+			"scope": "keyword.operator.assignment",
+			"settings": {
+				"foreground": "#FF9D00"
+			}
+		},
+		{
+			"name": "[JAVASCRIPT] Typescript/React Children",
+			"scope": "meta.jsx.children.tsx",
+			"settings": {
+				"foreground": "#FFFFFF"
+			}
+		},
+		{
+			"name": "[JAVASCRIPT] - Object keys",
+			"scope": "meta.object-literal.key.js",
+			"settings": {
+				"foreground": "#80FFBB"
+			}
+		},
+		{
+			"name": "Typescript/React Classnames and Modules",
+			"scope": [
+				"entity.name.type.class.tsx",
+				"entity.name.type.class.jsx",
+				"variable.other.readwrite.alias.tsx",
+				"variable.other.readwrite.tsx",
+				"variable.other.readwrite.alias.ts",
+				"variable.other.readwrite.alias.jsx",
+				"variable.other.readwrite.alias.js",
+				"variable.other.object.tsx",
+				"variable.other.object.jsx",
+				"variable.other.object",
+				"support.class.component.tsx",
+				"support.class.component.jsx",
+				"entity.name.type.tsx",
+				"entity.name.type.jsx",
+				"variable.other.readwrite",
+				"variable.other.object.js"
+			],
+			"settings": {
+				"foreground": "#9EFFFF"
+			}
+		},
+		{
+			"name": "[JAVASCRIPT] - .something",
+			"scope": ["variable.other.property", "variable.other.object.property"],
+			"settings": {
+				"foreground": "#FFEE80"
+			}
+		},
+		{
+			"name": "[JAVASCRIPT] - Color for Text inside JSX",
+			"scope": "JSXNested",
+			"settings": {
+				"foreground": "#FFFFFF"
+			}
+		},
+		{
+			"name": "[JAVASCRIPT] - Parameters",
+			"scope": ["variable.parameter"],
+			"settings": {
+				"foreground": "#9EFFFF"
+			}
+		},
+		{
+			"name": "[PYTHON] - Color for Self Argument",
+			"scope": "variable.parameter.function.language.special.self.python",
+			"settings": {
+				"foreground": "#9EFFFF"
+			}
+		},
+		{
+			"name": "[PYTHON] - Functions",
+			"scope": [
+				"meta.function-call.python",
+				"meta.function-call.generic.python",
+				"support.function.builtin.python"
+			],
+			"settings": {
+				"foreground": "#FAD000"
+			}
+		},
+		{
+			"name": "[TYPESCRIPT] - Color for Entity Name Type",
+			"scope": "source.ts entity.name.type",
+			"settings": {
+				"foreground": "#80FFBB"
+			}
+		},
+		{
+			"name": "[TYPESCRIPT] - Color for Keyword",
+			"scope": "source.ts keyword",
+			"settings": {
+				"foreground": "#FAD000"
+			}
+		},
+		{
+			"name": "[TYPESCRIPT] - Color for Punctuation Parameters",
+			"scope": "source.ts punctuation.definition.parameters",
+			"settings": {
+				"foreground": "#E1EFFF"
+			}
+		},
+		{
+			"name": "[TYPESCRIPT] - Color for Punctuation Arrow Parameters",
+			"scope": "meta.arrow.ts punctuation.definition.parameters",
+			"settings": {
+				"foreground": "#FFEE80"
+			}
+		},
+		{
+			"name": "[TYPESCRIPT] - Color for Storage",
+			"scope": "source.ts storage",
+			"settings": {
+				"foreground": "#9EFFFF"
 			}
 		}
 	]
