@@ -57,7 +57,7 @@ Looking for a theme that fits your vibe? Whether you're into dark mode, light mo
   </tr>
   <tr>
     <td width="50%">
-      <img src="https://user-images.githubusercontent.com/292349/115295327-7afdce80-a10e-11eb-89b3-2591262bf95a.png" />
+      <img src="./img/neko-night.jpg" />
     </td>
     <td width="50%">
       <img src="https://user-images.githubusercontent.com/292349/115996270-78c6c480-a593-11eb-8ed0-7d1400b058f5.png" />
