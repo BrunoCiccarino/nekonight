@@ -24,9 +24,12 @@
   </a>  
   <a href="https://github.com/BrunoCiccarino/nekonight">
     <img src="https://img.shields.io/badge/NeoVim-%2357A143.svg?&style=for-the-badge&logo=neovim&logoColor=white">
-  </a>  
-
+  </a> 
+  <a href="https://github.com/BrunoCiccarino/nekonight">
+    <img alt="GitHub commit activity" src="https://img.shields.io/github/commit-activity/y/BrunoCiccarino/nekonight?style=for-the-badge&color=%23262835">
+  </a>
 </p>
+
 
 Looking for a theme that fits your vibe? Whether you're into dark mode, light mode, or something in between, this **NekoNight** has got you covered. Written in [Lua](https://www.lua.org) for snappy performance, it's a buffet of color schemes for every taste and mood. 🍭 Want to boost your productivity *and* look good while coding? We've got countless options to keep you inspired and in the zone. 🚀✨ If you love it (and we know you will), hit that ⭐ on our [official repo](https://github.com/BrunoCiccarino/nekonight). Your support means the world! 🌍
 
