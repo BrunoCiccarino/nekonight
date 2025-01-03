@@ -33,6 +33,41 @@ Looking for a theme that fits your vibe? Whether you're into dark mode, light mo
 > [!NOTE]
 > This theme is a fork of folke/tokyonight.nvim all rights reserved
 
+## 🎨 Original palette 
+
+| Palette              | Hex     | RGB         | HSL           | Color Highlight |
+|----------------------|---------|-------------|---------------|---------|
+| Background           | #262835 | 38 40 53    | 232° 16% 18%  |   <span style="background-color:#262835;">&nbsp;&nbsp;&nbsp;&nbsp;</span>      |
+| Background Dark      | #262333 | 38 35 51    | 251° 19% 17%  |   <span style="background-color:#262333;">&nbsp;&nbsp;&nbsp;&nbsp;</span>      |
+| Background Dark1     | #1b1524 | 27 21 36    | 264° 26% 11%  |   <span style="background-color:#1b1524;">&nbsp;&nbsp;&nbsp;&nbsp;</span>      |
+| Background Highlight | #090028 | 9 0 40      | 253° 100% 8%  |   <span style="background-color:#090028;">&nbsp;&nbsp;&nbsp;&nbsp;</span>      |
+| Blue                 | #82AAFF | 130 170 255 | 221° 100% 75% |   <span style="background-color:#82AAFF;">&nbsp;&nbsp;&nbsp;&nbsp;</span>      |
+| Blue0                | #3d59a1 | 61 89 161   | 223° 45% 44%  |   <span style="background-color:#3d59a1;">&nbsp;&nbsp;&nbsp;&nbsp;</span>      |
+| Blue1                | #2ac3de | 42 195 222  | 189° 73% 52%  |   <span style="background-color:#2ac3de;">&nbsp;&nbsp;&nbsp;&nbsp;</span>      |
+| Blue2                | #0db9d7 | 13 185 215  | 189° 89% 45%  |   <span style="background-color:#0db9d7;">&nbsp;&nbsp;&nbsp;&nbsp;</span>      |
+| Blue5                | #89ddff | 137 221 255 | 197° 100% 77% |   <span style="background-color:#89ddff;">&nbsp;&nbsp;&nbsp;&nbsp;</span>      |
+| Blue6                | #b4f9f8 | 180 249 248 | 179° 85% 84%  |   <span style="background-color:#b4f9f8;">&nbsp;&nbsp;&nbsp;&nbsp;</span>      |
+| Blue7                | #394b70 | 57 75 112   | 220° 33% 33%  |   <span style="background-color:#394b70;">&nbsp;&nbsp;&nbsp;&nbsp;</span>      |
+| Comment              | #546E7A | 84 110 122  | 199° 18% 40%  |   <span style="background-color:#546E7A;">&nbsp;&nbsp;&nbsp;&nbsp;</span>      |
+| Cyan                 | #7dcfff | 125 207 255 | 202° 100% 75% |   <span style="background-color:#7dcfff;">&nbsp;&nbsp;&nbsp;&nbsp;</span>      |
+| Dark3                | #545c7e | 84 92 126   | 229° 20% 41%  |   <span style="background-color:#545c7e;">&nbsp;&nbsp;&nbsp;&nbsp;</span>      |
+| Dark5                | #737aa2 | 115 122 162 | 231° 20% 54%  |   <span style="background-color:#737aa2;">&nbsp;&nbsp;&nbsp;&nbsp;</span>      |
+| Foreground           | #c0caf5 | 192 202 245 | 229° 73% 86%  |   <span style="background-color:#c0caf5;">&nbsp;&nbsp;&nbsp;&nbsp;</span>      |
+| Foreground Gruvbox   | #f9f5d7 | 249 245 215 | 53° 74% 91%   |   <span style="background-color:#f9f5d7;">&nbsp;&nbsp;&nbsp;&nbsp;</span>      |
+| Foreground Dark      | #a9b1d6 | 169 177 214 | 229° 35% 75%  |   <span style="background-color:#a9b1d6;">&nbsp;&nbsp;&nbsp;&nbsp;</span>      |
+| Foreground Gutter    | #3b4261 | 59 66 97    | 229° 24% 31%  |   <span style="background-color:#3b4261;">&nbsp;&nbsp;&nbsp;&nbsp;</span>      |
+| Green                | #C3E88D | 195 232 141 | 84° 66% 73%   |   <span style="background-color:#C3E88D;">&nbsp;&nbsp;&nbsp;&nbsp;</span>      |
+| Green1               | #FFCB6B | 255 203 107 | 39° 100% 71%  |   <span style="background-color:#FFCB6B;">&nbsp;&nbsp;&nbsp;&nbsp;</span>      |
+| Green2               | #41a6b5 | 65 166 181  | 188° 47% 48%  |   <span style="background-color:#41a6b5;">&nbsp;&nbsp;&nbsp;&nbsp;</span>      |
+| Magenta              | #c099ff | 192 153 255 | 263° 100% 80% |   <span style="background-color:#c099ff;">&nbsp;&nbsp;&nbsp;&nbsp;</span>      |
+| Magenta2             | #ff007c | 255 0 124   | 331° 100% 50% |   <span style="background-color:#ff007c;">&nbsp;&nbsp;&nbsp;&nbsp;</span>      |
+| Orange               | #dd9046 | 221 144 70  | 29° 69% 57%   |   <span style="background-color:#dd9046;">&nbsp;&nbsp;&nbsp;&nbsp;</span>      |
+| Purple               | #C792EA | 199 146 234 | 276° 68% 75%  |   <span style="background-color:#C792EA;">&nbsp;&nbsp;&nbsp;&nbsp;</span>      |
+| Red                  | #f65866 | 246 88 102  | 355° 90% 65%  |   <span style="background-color:#f65866;">&nbsp;&nbsp;&nbsp;&nbsp;</span>      |
+| Red1                 | #c53b53 | 197 59 83   | 350° 54% 50%  |   <span style="background-color:#c53b53;">&nbsp;&nbsp;&nbsp;&nbsp;</span>      |
+| Teal                 | #4fd6be | 79 214 190  | 169° 62% 57%  |   <span style="background-color:#4fd6be;">&nbsp;&nbsp;&nbsp;&nbsp;</span>      |
+| Terminal Black       | #444a73 | 68 74 115   | 232° 26% 36%  |   <span style="background-color:#444a73;">&nbsp;&nbsp;&nbsp;&nbsp;</span>      |
+| Yellow               | #efbd5d | 239 189 93  | 39° 82% 65%   |   <span style="background-color:#efbd5d;">&nbsp;&nbsp;&nbsp;&nbsp;</span>      |
 
 ## 🍭 Themes preview 
  
