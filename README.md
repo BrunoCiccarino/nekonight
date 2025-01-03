@@ -336,6 +336,7 @@ Looking for a theme that fits your vibe? Whether you're into dark mode, light mo
 | [GNOME Terminal](https://gitlab.gnome.org/GNOME/gnome-terminal) | [extras/gnome_terminal](extras/gnome_terminal) |
 | [Helix](https://helix-editor.com/) | [extras/helix](extras/helix) |
 | [iTerm](https://iterm2.com/) | [extras/iterm](extras/iterm) |
+| [oh-my-posh](https://ohmyposh.dev/) | [extras/ohmyposh](extras/ohmyposh) |
 | [Kitty](https://sw.kovidgoyal.net/kitty/conf.html) | [extras/kitty](extras/kitty) |
 | [Lazygit](https://github.com/jesseduffield/lazygit) | [extras/lazygit](extras/lazygit) |
 | [Lua Table for testing](https://www.lua.org) | [extras/lua](extras/lua) |
