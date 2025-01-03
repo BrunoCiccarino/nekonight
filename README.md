@@ -234,44 +234,6 @@ Looking for a theme that fits your vibe? Whether you're into dark mode, light mo
 - Provides [NekoNight](https://github.com/BrunoCiccarino/nekonight)
   [extras](#-extras) for numerous other applications.
 
-<details>
-<summary>🎨 nekonight-storm palette</summary>
-
-| Palette              | Hex     | RGB         | HSL           |
-|----------------------|---------|-------------|---------------|
-| Background           | #24283b | 36 40 59    | 225° 25% 19%  |
-| Background Dark      | #1f2335 | 31 35 53    | 228° 25% 17%  |
-| Background Dark1     | #1b1e2d | 27 30 45    | 229° 25% 14%  |
-| Background Highlight | #292e42 | 41 46 66    | 230° 23% 21%  |
-| Blue                 | #7aa2f7 | 122 162 247 | 223° 89% 73%  |
-| Blue0                | #3d59a1 | 61 89 161   | 224° 45% 44%  |
-| Blue1                | #2ac3de | 42 195 222  | 189° 78% 52%  |
-| Blue2                | #0db9d7 | 13 185 215  | 191° 88% 45%  |
-| Blue5                | #89ddff | 137 221 255 | 197° 100% 77% |
-| Blue6                | #b4f9f8 | 180 249 248 | 179° 88% 84%  |
-| Blue7                | #394b70 | 57 75 112   | 220° 33% 33%  |
-| Comment              | #565f89 | 86 95 137   | 227° 22% 44%  |
-| Cyan                 | #7dcfff | 125 207 255 | 202° 100% 75% |
-| Dark3                | #545c7e | 84 92 126   | 227° 20% 41%  |
-| Dark5                | #737aa2 | 115 122 162 | 227° 20% 54%  |
-| Foreground           | #c0caf5 | 192 202 245 | 226° 68% 86%  |
-| Foreground Gruvbox   | #f9f5d7 | 249 245 215 | 53° 75% 91%   |
-| Foreground Dark      | #a9b1d6 | 169 177 214 | 225° 39% 75%  |
-| Foreground Gutter    | #3b4261 | 59 66 97    | 227° 24% 31%  |
-| Green                | #9ece6a | 158 206 106 | 91° 51% 61%   |
-| Green1               | #73daca | 115 218 202 | 173° 58% 65%  |
-| Green2               | #41a6b5 | 65 166 181  | 189° 47% 48%  |
-| Magenta              | #bb9af7 | 187 154 247 | 261° 85% 79%  |
-| Magenta2             | #ff007c | 255 0 124   | 330° 100% 50% |
-| Orange               | #ff9e64 | 255 158 100 | 22° 100% 70%  |
-| Purple               | #9d7cd8 | 157 124 216 | 262° 56% 67%  |
-| Red                  | #f7768e | 247 118 142 | 351° 87% 72%  |
-| Red1                 | #db4b4b | 219 75 75   | 0° 65% 58%    |
-| Teal                 | #1abc9c | 26 188 156  | 168° 75% 42%  |
-| Terminal Black       | #414868 | 65 72 104   | 227° 23% 33%  |
-| Yellow               | #e0af68 | 224 175 104 | 34° 69% 64%   |
-
-</details>
 
 <details>
 <summary>🎨 Supported Plugins</summary>
