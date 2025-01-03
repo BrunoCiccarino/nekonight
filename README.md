@@ -173,10 +173,12 @@ Looking for a theme that fits your vibe? Whether you're into dark mode, light mo
   </tr>
     <tr>
     <th>OneDark Deep</th>
+    <th>Deep Ocean</th>
   </tr>
   <tr>
     <td width="50%">
       <img src="./img/neko-onedark-deep.jpg"/>
+      <img src="./img/neko-deep-ocean.jpg"/>
     </td>
   </tr>
 
