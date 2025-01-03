@@ -178,6 +178,8 @@ Looking for a theme that fits your vibe? Whether you're into dark mode, light mo
   <tr>
     <td width="50%">
       <img src="./img/neko-onedark-deep.jpg"/>
+    </td>
+    <td width="50%">
       <img src="./img/neko-deep-ocean.jpg"/>
     </td>
   </tr>
