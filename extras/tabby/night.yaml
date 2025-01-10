@@ -1,6 +1,6 @@
-name: nekonight-moon
+name: nekonight-night
     foreground: '#cacaca'
-    background: '#222436'
+    background: '#262835'
     cursor: '#bbbbbb'
     colors:
       - '#000000'
@@ -19,3 +19,4 @@ name: nekonight-moon
       - '#ddaaff'
       - '#b7fff9'
       - '#ffffff'
+

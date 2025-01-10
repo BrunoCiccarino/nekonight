@@ -1,6 +1,6 @@
-name: nekonight-moon
+name: nekonight-deep-ocean
     foreground: '#cacaca'
-    background: '#222436'
+    background: '#0F111A'
     cursor: '#bbbbbb'
     colors:
       - '#000000'
@@ -19,3 +19,5 @@ name: nekonight-moon
       - '#ddaaff'
       - '#b7fff9'
       - '#ffffff'
+
+
