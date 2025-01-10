@@ -349,6 +349,7 @@ Looking for a theme that fits your vibe? Whether you're into dark mode, light mo
 | [Termux](https://termux.dev/) | [extras/termux](extras/termux) |
 | [Tilix](https://github.com/gnunn1/tilix) | [extras/tilix](extras/tilix) |
 | [Tmux](https://github.com/tmux/tmux/wiki) | [extras/tmux](extras/tmux) |
+| [Tabby](https://tabby.sh/) | [extras/tabby](extras/tabby) |
 | [Vim](https://vimhelp.org/) | [extras/vim](extras/vim) |
 | [Vscode](https://marketplace.visualstudio.com/items?itemName=BrunoCiccarino.nekonight) | [extras/vscode](extras/vscode) |
 | [Vimium](https://vimium.github.io/) | [extras/vimium](extras/vimium) |
