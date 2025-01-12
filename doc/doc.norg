@@ -1,0 +1,944 @@
+* 🏙 Nekonight
+
+Looking for a theme that fits your vibe? Whether you’re into dark mode, light mode, or something in between, this *NekoNight* has got you covered. Written in {https://www.lua.org}[Lua] for snappy performance, it’s a buffet of color schemes for every taste and mood. 🍭 Want to boost your productivity /and/ look good while coding? We’ve got countless options to keep you inspired and in the zone. 🚀✨ If you love it (and we know you will), hit that ⭐ on our {https://github.com/BrunoCiccarino/nekonight}[official repo]. Your support means the world! 🌍 
+
+
+> [!NOTE]
+This theme is a fork of folke/tokyonight.nvim all rights reserved 
+
+
+** 🎨 Original palette
+
+: A1 : Palette
+: B1 : Hex
+: C1 : RGB
+: D1 : HSL
+: E1 : Color Highlight
++hline2
+#table.head.columns 2-32 0
+: A2 : Background
+: B2 : #262835
+: C2 : 38 40 53
+: D2 : 232° 16% 18%
+: E2 : <    >
+: A3 : Background Dark
+: B3 : #262333
+: C3 : 38 35 51
+: D3 : 251° 19% 17%
+: E3 : <    >
+: A4 : Background Dark1
+: B4 : #1b1524
+: C4 : 27 21 36
+: D4 : 264° 26% 11%
+: E4 : <    >
+: A5 : Background Highlight
+: B5 : #090028
+: C5 : 9 0 40
+: D5 : 253° 100% 8%
+: E5 : <    >
+: A6 : Blue
+: B6 : #82AAFF
+: C6 : 130 170 255
+: D6 : 221° 100% 75%
+: E6 : <    >
+: A7 : Blue0
+: B7 : #3d59a1
+: C7 : 61 89 161
+: D7 : 223° 45% 44%
+: E7 : <    >
+: A8 : Blue1
+: B8 : #2ac3de
+: C8 : 42 195 222
+: D8 : 189° 73% 52%
+: E8 : <    >
+: A9 : Blue2
+: B9 : #0db9d7
+: C9 : 13 185 215
+: D9 : 189° 89% 45%
+: E9 : <    >
+: A10 : Blue5
+: B10 : #89ddff
+: C10 : 137 221 255
+: D10 : 197° 100% 77%
+: E10 : <    >
+: A11 : Blue6
+: B11 : #b4f9f8
+: C11 : 180 249 248
+: D11 : 179° 85% 84%
+: E11 : <    >
+: A12 : Blue7
+: B12 : #394b70
+: C12 : 57 75 112
+: D12 : 220° 33% 33%
+: E12 : <    >
+: A13 : Comment
+: B13 : #546E7A
+: C13 : 84 110 122
+: D13 : 199° 18% 40%
+: E13 : <    >
+: A14 : Cyan
+: B14 : #7dcfff
+: C14 : 125 207 255
+: D14 : 202° 100% 75%
+: E14 : <    >
+: A15 : Dark3
+: B15 : #545c7e
+: C15 : 84 92 126
+: D15 : 229° 20% 41%
+: E15 : <    >
+: A16 : Dark5
+: B16 : #737aa2
+: C16 : 115 122 162
+: D16 : 231° 20% 54%
+: E16 : <    >
+: A17 : Foreground
+: B17 : #c0caf5
+: C17 : 192 202 245
+: D17 : 229° 73% 86%
+: E17 : <    >
+: A18 : Foreground Gruvbox
+: B18 : #f9f5d7
+: C18 : 249 245 215
+: D18 : 53° 74% 91%
+: E18 : <    >
+: A19 : Foreground Dark
+: B19 : #a9b1d6
+: C19 : 169 177 214
+: D19 : 229° 35% 75%
+: E19 : <    >
+: A20 : Foreground Gutter
+: B20 : #3b4261
+: C20 : 59 66 97
+: D20 : 229° 24% 31%
+: E20 : <    >
+: A21 : Green
+: B21 : #C3E88D
+: C21 : 195 232 141
+: D21 : 84° 66% 73%
+: E21 : <    >
+: A22 : Green1
+: B22 : #FFCB6B
+: C22 : 255 203 107
+: D22 : 39° 100% 71%
+: E22 : <    >
+: A23 : Green2
+: B23 : #41a6b5
+: C23 : 65 166 181
+: D23 : 188° 47% 48%
+: E23 : <    >
+: A24 : Magenta
+: B24 : #c099ff
+: C24 : 192 153 255
+: D24 : 263° 100% 80%
+: E24 : <    >
+: A25 : Magenta2
+: B25 : #ff007c
+: C25 : 255 0 124
+: D25 : 331° 100% 50%
+: E25 : <    >
+: A26 : Orange
+: B26 : #dd9046
+: C26 : 221 144 70
+: D26 : 29° 69% 57%
+: E26 : <    >
+: A27 : Purple
+: B27 : #C792EA
+: C27 : 199 146 234
+: D27 : 276° 68% 75%
+: E27 : <    >
+: A28 : Red
+: B28 : #f65866
+: C28 : 246 88 102
+: D28 : 355° 90% 65%
+: E28 : <    >
+: A29 : Red1
+: B29 : #c53b53
+: C29 : 197 59 83
+: D29 : 350° 54% 50%
+: E29 : <    >
+: A30 : Teal
+: B30 : #4fd6be
+: C30 : 79 214 190
+: D30 : 169° 62% 57%
+: E30 : <    >
+: A31 : Terminal Black
+: B31 : #444a73
+: C31 : 68 74 115
+: D31 : 232° 26% 36%
+: E31 : <    >
+: A32 : Yellow
+: B32 : #efbd5d
+: C32 : 239 189 93
+: D32 : 39° 82% 65%
+: E32 : <    >
+
+
+** 🍭 Themes preview
+
+*** 🎨 neovim
+`|<table width="100%">|`(embed:html)
+`|<tr>|`(embed:html)
+`|<th>|`(embed:html)
+Moon 
+`|</th>|`(embed:html)
+`|<th>|`(embed:html)
+Storm 
+`|</th>|`(embed:html)
+`|</tr>|`(embed:html)
+`|<tr>|`(embed:html)
+`|<td width="50%">|`(embed:html)
+`|<img src="https://user-images.githubusercontent.com/292349/190951628-10ba28a1-57ff-4479-8eab-47400a402242.png" />|`(embed:html) 
+`|</td>|`(embed:html)
+`|<td width="50%">|`(embed:html)
+`|<img src="https://user-images.githubusercontent.com/292349/115295095-3a9e5080-a10e-11eb-9aed-6054488c46ce.png" />|`(embed:html) 
+`|</td>|`(embed:html)
+`|</tr>|`(embed:html)
+`|<tr>|`(embed:html)
+`|<th>|`(embed:html)
+Night 
+`|</th>|`(embed:html)
+`|<th>|`(embed:html)
+Day 
+`|</th>|`(embed:html)
+`|</tr>|`(embed:html)
+`|<tr>|`(embed:html)
+`|<td width="50%">|`(embed:html)
+`|<img src="./img/neko-night.jpg" />|`(embed:html) 
+`|</td>|`(embed:html)
+`|<td width="50%">|`(embed:html)
+`|<img src="https://user-images.githubusercontent.com/292349/115996270-78c6c480-a593-11eb-8ed0-7d1400b058f5.png" />|`(embed:html) 
+`|</td>|`(embed:html)
+`|</tr>|`(embed:html)
+`|<tr>|`(embed:html)
+`|<th>|`(embed:html)
+Mars 
+`|</th>|`(embed:html)
+`|<th>|`(embed:html)
+Nord 
+`|</th>|`(embed:html)
+`|</tr>|`(embed:html)
+`|<tr>|`(embed:html)
+`|<td width="50%">|`(embed:html)
+`|<img src="./img/nekonightbrown.jpg" />|`(embed:html) 
+`|</td>|`(embed:html)
+`|<td width="50%">|`(embed:html)
+`|<img src="./img/neko-nord.jpg" />|`(embed:html) 
+`|</td>|`(embed:html)
+`|</tr>|`(embed:html)
+`|<tr>|`(embed:html)
+`|<th>|`(embed:html)
+Shades of purple 
+`|</th>|`(embed:html)
+`|<th>|`(embed:html)
+Shades of purple dark 
+`|</th>|`(embed:html)
+`|</tr>|`(embed:html)
+`|<tr>|`(embed:html)
+`|<td width="50%">|`(embed:html)
+`|<img src="./img/neko-shades-of-purple.jpg" />|`(embed:html) 
+`|</td>|`(embed:html)
+`|<td width="50%">|`(embed:html)
+`|<img src="./img/neko-shades-of-purple-dark.jpg" />|`(embed:html) 
+`|</td>|`(embed:html)
+`|</tr>|`(embed:html)
+`|<tr>|`(embed:html)
+`|<th>|`(embed:html)
+OneDark 
+`|</th>|`(embed:html)
+`|<th>|`(embed:html)
+Fire Obsidian 
+`|</th>|`(embed:html)
+`|</tr>|`(embed:html)
+`|<tr>|`(embed:html)
+`|<td width="50%">|`(embed:html)
+`|<img src="./img/neko-onedark.jpg"/>|`(embed:html) 
+`|</td>|`(embed:html)
+`|<td width="50%">|`(embed:html)
+`|<img src="./img/neko-fire-obsidian.jpg"/>|`(embed:html) 
+`|</td>|`(embed:html)
+`|</tr>|`(embed:html)
+`|<tr>|`(embed:html)
+`|<th>|`(embed:html)
+Palenight 
+`|</th>|`(embed:html)
+`|<th>|`(embed:html)
+Noctis-Uva 
+`|</th>|`(embed:html)
+`|</tr>|`(embed:html)
+`|<tr>|`(embed:html)
+`|<td width="50%">|`(embed:html)
+`|<img src="./img/neko-palenight.jpg"/>|`(embed:html) 
+`|</td>|`(embed:html)
+`|<td width="50%">|`(embed:html)
+`|<img src="./img/neko-noctis-uva.jpg"/>|`(embed:html) 
+`|</td>|`(embed:html)
+`|</tr>|`(embed:html)
+`|<tr>|`(embed:html)
+`|<th>|`(embed:html)
+Gruvbox 
+`|</th>|`(embed:html)
+`|<th>|`(embed:html)
+Dracula 
+`|</th>|`(embed:html)
+`|</tr>|`(embed:html)
+`|<tr>|`(embed:html)
+`|<td width="50%">|`(embed:html)
+`|<img src="./img/neko-gruvbox.jpg"/>|`(embed:html) 
+`|</td>|`(embed:html)
+`|<td width="50%">|`(embed:html)
+`|<img src="./img/neko-dracula.jpg"/>|`(embed:html) 
+`|</td>|`(embed:html)
+`|</tr>|`(embed:html)
+`|<tr>|`(embed:html)
+`|<th>|`(embed:html)
+Doom One 
+`|</th>|`(embed:html)
+`|<th>|`(embed:html)
+Zenburn 
+`|</th>|`(embed:html)
+`|</tr>|`(embed:html)
+`|<tr>|`(embed:html)
+`|<td width="50%">|`(embed:html)
+`|<img src="./img/neko-doom-one.jpg"/>|`(embed:html) 
+`|</td>|`(embed:html)
+`|<td width="50%">|`(embed:html)
+`|<img src="./img/neko-zenburn.jpg"/>|`(embed:html) 
+`|</td>|`(embed:html)
+`|</tr>|`(embed:html)
+
+@code 
+<tr>
+<th>Material theme</th>
+<th>Arcdark</th>
+@end
+
+`|</tr>|`(embed:html)
+`|<tr>|`(embed:html)
+`|<td width="50%">|`(embed:html)
+`|<img src="./img/neko-material-theme.jpg"/>|`(embed:html) 
+`|</td>|`(embed:html)
+`|<td width="50%">|`(embed:html)
+`|<img src="./img/neko-arcdark.jpg"/>|`(embed:html) 
+`|</td>|`(embed:html)
+`|</tr>|`(embed:html)
+`|<tr>|`(embed:html)
+`|<th>|`(embed:html)
+Moonlight 
+`|</th>|`(embed:html)
+`|<th>|`(embed:html)
+Synthwave 
+`|</th>|`(embed:html)
+`|</tr>|`(embed:html)
+`|<tr>|`(embed:html)
+`|<td width="50%">|`(embed:html)
+`|<img src="./img/neko-moonlight.jpg"/>|`(embed:html) 
+`|</td>|`(embed:html)
+`|<td width="50%">|`(embed:html)
+`|<img src="./img/neko-synthwave.jpg"/>|`(embed:html) 
+`|</td>|`(embed:html)
+`|</tr>|`(embed:html)
+`|<tr>|`(embed:html)
+`|<th>|`(embed:html)
+Space 
+`|</th>|`(embed:html)
+`|<th>|`(embed:html)
+Aurora 
+`|</th>|`(embed:html)
+`|</tr>|`(embed:html)
+`|<tr>|`(embed:html)
+`|<td width="50%">|`(embed:html)
+`|<img src="./img/neko-space.jpg"/>|`(embed:html) 
+`|</td>|`(embed:html)
+`|<td width="50%">|`(embed:html)
+`|<img src="./img/neko-aurora.jpg"/>|`(embed:html) 
+`|</td>|`(embed:html)
+`|</tr>|`(embed:html)
+`|<tr>|`(embed:html)
+`|<th>|`(embed:html)
+OneDark Deep 
+`|</th>|`(embed:html)
+`|<th>|`(embed:html)
+Deep Ocean 
+`|</th>|`(embed:html)
+`|</tr>|`(embed:html)
+`|<tr>|`(embed:html)
+`|<td width="50%">|`(embed:html)
+`|<img src="./img/neko-onedark-deep.jpg"/>|`(embed:html) 
+`|</td>|`(embed:html)
+`|<td width="50%">|`(embed:html)
+`|<img src="./img/neko-deep-ocean.jpg"/>|`(embed:html) 
+`|</td>|`(embed:html)
+`|</tr>|`(embed:html)
+`|</table>|`(embed:html)
+
+** ✨ Features
+
+- Supports the latest {https://github.com/neovim/neovim}[Neovim]
+{https://github.com/neovim/neovim/releases/tag/v0.9.0}[0.9.0] features. 
+- Terminal colors. 
+- Supports all major plugins. 
+- Provides {https://github.com/BrunoCiccarino/nekonight}[NekoNight]
+{#-extras}[extras] for numerous other applications. 
+
+`|<details>|`(embed:html)
+`|<summary>|`(embed:html)
+🎨 Supported Plugins 
+`|</summary>|`(embed:html)
+`|<!-- plugins:start -->|`(embed:html)
+
+
+: A1 : Plugin
+: B1 : Source
++hline2
+#table.head.columns 2-68 0
+: A2 : {https://github.com/stevearc/aerial.nvim}[aerial.nvim]
+: B2 : {lua/nekonight/groups/aerial.lua}[`aerial`]
+: A3 : {https://github.com/dense-analysis/ale}[ale]
+: B3 : {lua/nekonight/groups/ale.lua}[`ale`]
+: A4 : {https://github.com/goolord/alpha-nvim}[alpha-nvim]
+: B4 : {lua/nekonight/groups/alpha.lua}[`alpha`]
+: A5 : {https://github.com/romgrk/barbar.nvim}[barbar.nvim]
+: B5 : {lua/nekonight/groups/barbar.lua}[`barbar`]
+: A6 : {https://github.com/Saghen/blink.cmp}[blink.cmp]
+: B6 : {lua/nekonight/groups/blink.lua}[`blink`]
+: A7 : {https://github.com/akinsho/bufferline.nvim}[bufferline.nvim]
+: B7 : {lua/nekonight/groups/bufferline.lua}[`bufferline`]
+: A8 : {https://github.com/hrsh7th/nvim-cmp}[nvim-cmp]
+: B8 : {lua/nekonight/groups/cmp.lua}[`cmp`]
+: A9 : {https://github.com/Exafunction/codeium.nvim}[codeium.nvim]
+: B9 : {lua/nekonight/groups/codeium.lua}[`codeium`]
+: A10 : {https://github.com/zbirenbaum/copilot.lua}[copilot.lua]
+: B10 : {lua/nekonight/groups/copilot.lua}[`copilot`]
+: A11 : {https://github.com/mfussenegger/nvim-dap}[nvim-dap]
+: B11 : {lua/nekonight/groups/dap.lua}[`dap`]
+: A12 : {https://github.com/nvimdev/dashboard-nvim}[dashboard-nvim]
+: B12 : {lua/nekonight/groups/dashboard.lua}[`dashboard`]
+: A13 : {https://github.com/folke/flash.nvim}[flash.nvim]
+: B13 : {lua/nekonight/groups/flash.lua}[`flash`]
+: A14 : {https://github.com/SuperBo/fugit2.nvim}[fugit2]
+: B14 : {lua/nekonight/groups/fugit2.lua}[`fugit2`]
+: A15 : {https://github.com/ibhagwan/fzf-lua}[fzf-lua]
+: B15 : {lua/nekonight/groups/fzf.lua}[`fzf`]
+: A16 : {https://github.com/airblade/vim-gitgutter}[vim-gitgutter]
+: B16 : {lua/nekonight/groups/gitgutter.lua}[`gitgutter`]
+: A17 : {https://github.com/lewis6991/gitsigns.nvim}[gitsigns.nvim]
+: B17 : {lua/nekonight/groups/gitsigns.lua}[`gitsigns`]
+: A18 : {https://github.com/lambdalisue/glyph-palette.vim}[glyph-palette.vim]
+: B18 : {lua/nekonight/groups/glyph-palette.lua}[`glyph-palette`]
+: A19 : {https://github.com/MagicDuck/grug-far.nvim}[grug-far.nvim]
+: B19 : {lua/nekonight/groups/grug-far.lua}[`grug-far`]
+: A20 : {https://github.com/lukas-reineke/headlines.nvim}[headlines.nvim]
+: B20 : {lua/nekonight/groups/headlines.lua}[`headlines`]
+: A21 : {https://github.com/phaazon/hop.nvim}[hop.nvim]
+: B21 : {lua/nekonight/groups/hop.lua}[`hop`]
+: A22 : {https://github.com/RRethy/vim-illuminate}[vim-illuminate]
+: B22 : {lua/nekonight/groups/illuminate.lua}[`illuminate`]
+: A23 : {https://github.com/lukas-reineke/indent-blankline.nvim}[indent-blankline.nvim]
+: B23 : {lua/nekonight/groups/indent-blankline.lua}[`indent-blankline`]
+: A24 : {https://github.com/nvimdev/indentmini.nvim}[indentmini.nvim]
+: B24 : {lua/nekonight/groups/indentmini.lua}[`indentmini`]
+: A25 : {https://github.com/folke/lazy.nvim}[lazy.nvim]
+: B25 : {lua/nekonight/groups/lazy.lua}[`lazy`]
+: A26 : {https://github.com/ggandor/leap.nvim}[leap.nvim]
+: B26 : {lua/nekonight/groups/leap.lua}[`leap`]
+: A27 : {https://github.com/glepnir/lspsaga.nvim}[lspsaga.nvim]
+: B27 : {lua/nekonight/groups/lspsaga.lua}[`lspsaga`]
+: A28 : {https://github.com/echasnovski/mini.animate}[mini.animate]
+: B28 : {lua/nekonight/groups/mini_animate.lua}[`mini_animate`]
+: A29 : {https://github.com/echasnovski/mini.clue}[mini.clue]
+: B29 : {lua/nekonight/groups/mini_clue.lua}[`mini_clue`]
+: A30 : {https://github.com/echasnovski/mini.completion}[mini.completion]
+: B30 : {lua/nekonight/groups/mini_completion.lua}[`mini_completion`]
+: A31 : {https://github.com/echasnovski/mini.cursorword}[mini.cursorword]
+: B31 : {lua/nekonight/groups/mini_cursorword.lua}[`mini_cursorword`]
+: A32 : {https://github.com/echasnovski/mini.deps}[mini.deps]
+: B32 : {lua/nekonight/groups/mini_deps.lua}[`mini_deps`]
+: A33 : {https://github.com/echasnovski/mini.diff}[mini.diff]
+: B33 : {lua/nekonight/groups/mini_diff.lua}[`mini_diff`]
+: A34 : {https://github.com/echasnovski/mini.files}[mini.files]
+: B34 : {lua/nekonight/groups/mini_files.lua}[`mini_files`]
+: A35 : {https://github.com/echasnovski/mini.hipatterns}[mini.hipatterns]
+: B35 : {lua/nekonight/groups/mini_hipatterns.lua}[`mini_hipatterns`]
+: A36 : {https://github.com/echasnovski/mini.icons}[mini.icons]
+: B36 : {lua/nekonight/groups/mini_icons.lua}[`mini_icons`]
+: A37 : {https://github.com/echasnovski/mini.indentscope}[mini.indentscope]
+: B37 : {lua/nekonight/groups/mini_indentscope.lua}[`mini_indentscope`]
+: A38 : {https://github.com/echasnovski/mini.jump}[mini.jump]
+: B38 : {lua/nekonight/groups/mini_jump.lua}[`mini_jump`]
+: A39 : {https://github.com/echasnovski/mini.map}[mini.map]
+: B39 : {lua/nekonight/groups/mini_map.lua}[`mini_map`]
+: A40 : {https://github.com/echasnovski/mini.notify}[mini.notify]
+: B40 : {lua/nekonight/groups/mini_notify.lua}[`mini_notify`]
+: A41 : {https://github.com/echasnovski/mini.operators}[mini.operators]
+: B41 : {lua/nekonight/groups/mini_operators.lua}[`mini_operators`]
+: A42 : {https://github.com/echasnovski/mini.pick}[mini.pick]
+: B42 : {lua/nekonight/groups/mini_pick.lua}[`mini_pick`]
+: A43 : {https://github.com/echasnovski/mini.starter}[mini.starter]
+: B43 : {lua/nekonight/groups/mini_starter.lua}[`mini_starter`]
+: A44 : {https://github.com/echasnovski/mini.statusline}[mini.statusline]
+: B44 : {lua/nekonight/groups/mini_statusline.lua}[`mini_statusline`]
+: A45 : {https://github.com/echasnovski/mini.surround}[mini.surround]
+: B45 : {lua/nekonight/groups/mini_surround.lua}[`mini_surround`]
+: A46 : {https://github.com/echasnovski/mini.tabline}[mini.tabline]
+: B46 : {lua/nekonight/groups/mini_tabline.lua}[`mini_tabline`]
+: A47 : {https://github.com/echasnovski/mini.test}[mini.test]
+: B47 : {lua/nekonight/groups/mini_test.lua}[`mini_test`]
+: A48 : {https://github.com/echasnovski/mini.trailspace}[mini.trailspace]
+: B48 : {lua/nekonight/groups/mini_trailspace.lua}[`mini_trailspace`]
+: A49 : {https://github.com/SmiteshP/nvim-navic}[nvim-navic]
+: B49 : {lua/nekonight/groups/navic.lua}[`navic`]
+: A50 : {https://github.com/nvim-neo-tree/neo-tree.nvim}[neo-tree.nvim]
+: B50 : {lua/nekonight/groups/neo-tree.lua}[`neo-tree`]
+: A51 : {https://github.com/TimUntersberger/neogit}[neogit]
+: B51 : {lua/nekonight/groups/neogit.lua}[`neogit`]
+: A52 : {https://github.com/nvim-neotest/neotest}[neotest]
+: B52 : {lua/nekonight/groups/neotest.lua}[`neotest`]
+: A53 : {https://github.com/folke/noice.nvim}[noice.nvim]
+: B53 : {lua/nekonight/groups/noice.lua}[`noice`]
+: A54 : {https://github.com/rcarriga/nvim-notify}[nvim-notify]
+: B54 : {lua/nekonight/groups/notify.lua}[`notify`]
+: A55 : {https://github.com/kyazdani42/nvim-tree.lua}[nvim-tree.lua]
+: B55 : {lua/nekonight/groups/nvim-tree.lua}[`nvim-tree`]
+: A56 : {https://github.com/pwntester/octo.nvim}[octo.nvim]
+: B56 : {lua/nekonight/groups/octo.lua}[`octo`]
+: A57 : {https://github.com/HiPhish/rainbow-delimiters.nvim}[rainbow-delimiters.nvim]
+: B57 : {lua/nekonight/groups/rainbow.lua}[`rainbow`]
+: A58 : {https://github.com/MeanderingProgrammer/render-markdown.nvim}[render-markdown.nvim]
+: B58 : {lua/nekonight/groups/render-markdown.lua}[`render-markdown`]
+: A59 : {https://github.com/petertriho/nvim-scrollbar}[nvim-scrollbar]
+: B59 : {lua/nekonight/groups/scrollbar.lua}[`scrollbar`]
+: A60 : {https://github.com/folke/snacks.nvim}[snacks.nvim]
+: B60 : {lua/nekonight/groups/snacks.lua}[`snacks`]
+: A61 : {https://github.com/justinmk/vim-sneak}[vim-sneak]
+: B61 : {lua/nekonight/groups/sneak.lua}[`sneak`]
+: A62 : {https://github.com/supermaven-inc/supermaven-nvim}[supermaven-nvim]
+: B62 : {lua/nekonight/groups/supermaven.lua}[`supermaven`]
+: A63 : {https://github.com/nvim-telescope/telescope.nvim}[telescope.nvim]
+: B63 : {lua/nekonight/groups/telescope.lua}[`telescope`]
+: A64 : {https://github.com/nvim-treesitter/nvim-treesitter-context}[nvim-treesitter-context]
+: B64 : {lua/nekonight/groups/treesitter-context.lua}[`treesitter-context`]
+: A65 : {https://github.com/folke/trouble.nvim}[trouble.nvim]
+: B65 : {lua/nekonight/groups/trouble.lua}[`trouble`]
+: A66 : {https://github.com/vimwiki/vimwiki}[vimwiki]
+: B66 : {lua/nekonight/groups/vimwiki.lua}[`vimwiki`]
+: A67 : {https://github.com/folke/which-key.nvim}[which-key.nvim]
+: B67 : {lua/nekonight/groups/which-key.lua}[`which-key`]
+: A68 : {https://github.com/gbprod/yanky.nvim}[yanky.nvim]
+: B68 : {lua/nekonight/groups/yanky.lua}[`yanky`]
+
+
+`|<!-- plugins:end -->|`(embed:html)
+`|</details>|`(embed:html)
+`|<details>|`(embed:html)
+`|<summary>|`(embed:html)
+🍭 Extras 
+`|</summary>|`(embed:html)
+`|<!-- extras:start -->|`(embed:html)
+
+: A1 : Tool
+: B1 : Extra
++hline2
+#table.head.columns 2-39 0
+: A2 : {https://git.sr.ht/~rjarry/aerc/}[Aerc]
+: B2 : {extras/aerc}[extras/aerc]
+: A3 : {https://github.com/alacritty/alacritty}[Alacritty]
+: B3 : {extras/alacritty}[extras/alacritty]
+: A4 : {https://github.com/dandavison/delta}[Delta]
+: B4 : {extras/delta}[extras/delta]
+: A5 : {https://betterdiscord.app/}[(Better-)Discord]
+: B5 : {extras/discord}[extras/discord]
+: A6 : {https://dunst-project.org/}[Dunst]
+: B6 : {extras/dunst}[extras/dunst]
+: A7 : {https://fishshell.com/docs/current/index.html}[Fish]
+: B7 : {extras/fish}[extras/fish]
+: A8 : {https://fishshell.com/docs/current/interactive.html#syntax-highlighting}[Fish Themes]
+: B8 : {extras/fish_themes}[extras/fish_themes]
+: A9 : {https://codeberg.org/dnkl/foot}[Foot]
+: B9 : {extras/foot}[extras/foot]
+: A10 : {https://codeberg.org/dnkl/fuzzel}[Fuzzel]
+: B10 : {extras/fuzzel}[extras/fuzzel]
+: A11 : {https://github.com/junegunn/fzf}[Fzf]
+: B11 : {extras/fzf}[extras/fzf]
+: A12 : {https://github.com/ghostty-org/ghostty}[Ghostty]
+: B12 : {extras/ghostty}[extras/ghostty]
+: A13 : {https://github.com/extrawurst/gitui}[GitUI]
+: B13 : {extras/gitui}[extras/gitui]
+: A14 : {https://gitlab.gnome.org/GNOME/gnome-terminal}[GNOME Terminal]
+: B14 : {extras/gnome_terminal}[extras/gnome_terminal]
+: A15 : {https://helix-editor.com/}[Helix]
+: B15 : {extras/helix}[extras/helix]
+: A16 : {https://iterm2.com/}[iTerm]
+: B16 : {extras/iterm}[extras/iterm]
+: A17 : {https://ohmyposh.dev/}[oh-my-posh]
+: B17 : {extras/ohmyposh}[extras/ohmyposh]
+: A18 : {https://sw.kovidgoyal.net/kitty/conf.html}[Kitty]
+: B18 : {extras/kitty}[extras/kitty]
+: A19 : {https://github.com/jesseduffield/lazygit}[Lazygit]
+: B19 : {extras/lazygit}[extras/lazygit]
+: A20 : {https://www.lua.org}[Lua Table for testing]
+: B20 : {extras/lua}[extras/lua]
+: A21 : {https://prismjs.com}[Prism]
+: B21 : {extras/prism}[extras/prism]
+: A22 : {https://f1bonacc1.github.io/process-compose/}[process-compose]
+: B22 : {extras/process_compose}[extras/process_compose]
+: A23 : {https://slack.com}[Slack]
+: B23 : {extras/slack}[extras/slack]
+: A24 : {https://github.com/aome510/spotify-player}[Spotify Player]
+: B24 : {extras/spotify_player}[extras/spotify_player]
+: A25 : {https://www.sublimetext.com/docs/themes}[Sublime Text]
+: B25 : {extras/sublime}[extras/sublime]
+: A26 : {https://gnome-terminator.readthedocs.io/en/latest/config.html}[Terminator]
+: B26 : {extras/terminator}[extras/terminator]
+: A27 : {https://termux.dev/}[Termux]
+: B27 : {extras/termux}[extras/termux]
+: A28 : {https://github.com/gnunn1/tilix}[Tilix]
+: B28 : {extras/tilix}[extras/tilix]
+: A29 : {https://github.com/tmux/tmux/wiki}[Tmux]
+: B29 : {extras/tmux}[extras/tmux]
+: A30 : {https://vimhelp.org/}[Vim]
+: B30 : {extras/vim}[extras/vim]
+: A31 : {https://marketplace.visualstudio.com/items?itemName=BrunoCiccarino.nekonight}[Vscode]
+: B31 : {extras/vscode}[extras/vscode]
+: A32 : {https://vimium.github.io/}[Vimium]
+: B32 : {extras/vimium}[extras/vimium]
+: A33 : {https://wezfurlong.org/wezterm/config/files.html}[WezTerm]
+: B33 : {extras/wezterm}[extras/wezterm]
+: A34 : {https://aka.ms/terminal-documentation}[Windows Terminal]
+: B34 : {extras/windows_terminal}[extras/windows_terminal]
+: A35 : {https://docs.xfce.org/apps/terminal/advanced}[Xfce Terminal]
+: B35 : {extras/xfceterm}[extras/xfceterm]
+: A36 : {https://wiki.archlinux.org/title/X_resources}[Xresources]
+: B36 : {extras/xresources}[extras/xresources]
+: A37 : {https://github.com/sxyazi/yazi}[Yazi]
+: B37 : {extras/yazi}[extras/yazi]
+: A38 : {https://pwmt.org/projects/zathura/}[Zathura]
+: B38 : {extras/zathura}[extras/zathura]
+: A39 : {https://zellij.dev/}[Zellij]
+: B39 : {extras/zellij}[extras/zellij]
+
+
+`|<!-- extras:end -->|`(embed:html)
+`|</details>|`(embed:html)
+
+** ⚡️ Requirements
+
+- {https://github.com/neovim/neovim}[Neovim] >=
+{https://github.com/neovim/neovim/releases/tag/v0.8.0}[0.8.0] 
+
+
+** 📦 Installation
+
+Install the theme with your preferred package manager, such as
+{https://github.com/folke/lazy.nvim}[folke/lazy.nvim]: 
+
+
+@code lua
+{
+  "BrunoCiccarino/nekonight",
+  lazy = false,
+  priority = 1000,
+  opts = {},
+}
+@end
+
+
+using {https://github.com/wbthomason/packer.nvim}[packer.nvim] 
+
+
+@code lua
+return require('packer').startup(function(use)
+    -- Other packages can be listed here...
+
+    -- NekoNight Theme
+  use 'BrunoCiccarino/nekonight'  
+end)
+@end
+
+
+** 🚀 Usage
+
+@code lua
+vim.cmd[[colorscheme nekonight]]
+@end
+
+
+@code vim
+colorscheme nekonight
+
+" There are also colorschemes for the different styles.
+colorscheme nekonight-night
+colorscheme nekonight-storm
+colorscheme nekonight-day
+colorscheme nekonight-moon
+@end
+
+
+Some plugins need extra configuration to work with *NekoNight*. 
+
+`|<details>|`(embed:html)
+`|<summary>|`(embed:html)
+Click here for more details 
+`|</summary>|`(embed:html)
+
+*** {https://github.com/utilyre/barbecue.nvim}[Barbecue]
+
+@code lua
+-- Lua
+require('barbecue').setup {
+  -- ... your barbecue config
+  theme = 'nekonight',
+  -- ... your barbecue config
+}
+@end
+
+
+*** {https://github.com/nvim-lualine/lualine.nvim}[Lualine]
+
+@code lua
+-- Lua
+require('lualine').setup {
+  options = {
+    -- ... your lualine config
+    theme = 'nekonight'
+    -- ... your lualine config
+  }
+}
+@end
+
+
+*** {https://github.com/itchyny/lightline.vim}[Lightline]
+
+@code vim
+" Vim Script
+let g:lightline = {'colorscheme': 'nekonight'}
+@end
+
+`|</details>|`(embed:html)
+
+** ⚙️ Configuration
+
+> [!IMPORTANT]
+Set the configuration *BEFORE* loading the color scheme with `colorscheme nekonight`. 
+
+
+The theme offers four styles: {# storm}, {# moon}, {# night},
+and {# day}. 
+
+
+The {# day} style is used when `{ style = "day" }` is passed to
+`setup(options)` or when `vim.o.background = "light"`. 
+
+
+{https://github.com/BrunoCiccarino/nekonight.nvim}[nekonight] uses the default options,
+unless `setup` is explicitly called. 
+
+`|<details>|`(embed:html)
+`|<summary>|`(embed:html)
+Default Options 
+`|</summary>|`(embed:html)
+`|<!-- config:start -->|`(embed:html)
+
+@code lua
+---@class nekonight.Config
+---@field on_colors fun(colors: ColorScheme)
+---@field on_highlights fun(highlights: nekonight.Highlights, colors: ColorScheme)
+M.defaults = {
+  style = "moon", -- The theme comes in three styles, `storm`, a darker variant `night` and `day`
+  light_style = "day", -- The theme is used when the background is set to light
+  transparent = false, -- Enable this to disable setting the background color
+  terminal_colors = true, -- Configure the colors used when opening a `:terminal` in Neovim
+  styles = {
+    -- Style to be applied to different syntax groups
+    -- Value is any valid attr-list value for `:help nvim_set_hl`
+    comments = { italic = true },
+    keywords = { italic = true },
+    functions = {},
+    variables = {},
+    -- Background styles. Can be "dark", "transparent" or "normal"
+    sidebars = "dark", -- style for sidebars, see below
+    floats = "dark", -- style for floating windows
+  },
+  day_brightness = 0.3, -- Adjusts the brightness of the colors of the **Day** style. Number between 0 and 1, from dull to vibrant colors
+  dim_inactive = false, -- dims inactive windows
+  lualine_bold = false, -- When `true`, section headers in the lualine theme will be bold
+
+  --- You can override specific color groups to use other groups or a hex color
+  --- function will be called with a ColorScheme table
+  ---@param colors ColorScheme
+  on_colors = function(colors) end,
+
+  --- You can override specific highlights to use other groups or a hex color
+  --- function will be called with a Highlights and ColorScheme table
+  ---@param highlights nekonight.Highlights
+  ---@param colors ColorScheme
+  on_highlights = function(highlights, colors) end,
+
+  cache = true, -- When set to true, the theme will be cached for better performance
+
+  ---@type table<string, boolean|{enabled:boolean}>
+  plugins = {
+    -- enable all plugins when not using lazy.nvim
+    -- set to false to manually enable/disable plugins
+    all = package.loaded.lazy == nil,
+    -- uses your plugin manager to automatically enable needed plugins
+    -- currently only lazy.nvim is supported
+    auto = true,
+    -- add any plugins here that you want to enable
+    -- for all possible plugins, see:
+    --   * https://github.com/BrunoCiccarino/nekonight/tree/main/lua/nekonight/groups
+    -- telescope = true,
+  },
+}
+@end
+
+`|<!-- config:end -->|`(embed:html)
+`|</details>|`(embed:html)
+
+** 🪓 Overriding Colors & Highlight Groups
+
+How the highlight groups are calculated: 
+
+
+~ `colors` are determined based on your configuration, with the ability to
+override them using `config.on_colors(colors)`. 
+~ These `colors` are utilized to generate the highlight groups. 
+~ `config.on_highlights(highlights, colors)` can be used to override highlight
+groups. 
+
+
+For default values of `colors` and `highlights`, please consult the
+{extras/lua/nekonight_storm.lua}[storm],
+{extras/lua/nekonight_moon.lua}[moon],
+{extras/lua/nekonight_night.lua}[night], and
+{extras/lua/nekonight_day.lua}[day] themes. 
+
+`|<details>|`(embed:html)
+`|<summary>|`(embed:html)
+Settings & Changing Colors 
+`|</summary>|`(embed:html)
+
+@code lua
+require("nekonight").setup({
+  -- use the night style
+  style = "night",
+  -- disable italic for functions
+  styles = {
+    functions = {}
+  },
+  -- Change the "hint" color to the "orange" color, and make the "error" color bright red
+  on_colors = function(colors)
+    colors.hint = colors.orange
+    colors.error = "#ff0000"
+  end
+})
+@end
+
+`|</details>|`(embed:html)
+`|<details>|`(embed:html)
+`|<summary>|`(embed:html)
+Borderless Telescope 
+`|</summary>|`(embed:html)
+
+@code lua
+require("nekonight").setup({
+  on_highlights = function(hl, c)
+    local prompt = "#2d3149"
+    hl.TelescopeNormal = {
+      bg = c.bg_dark,
+      fg = c.fg_dark,
+    }
+    hl.TelescopeBorder = {
+      bg = c.bg_dark,
+      fg = c.bg_dark,
+    }
+    hl.TelescopePromptNormal = {
+      bg = prompt,
+    }
+    hl.TelescopePromptBorder = {
+      bg = prompt,
+      fg = prompt,
+    }
+    hl.TelescopePromptTitle = {
+      bg = prompt,
+      fg = prompt,
+    }
+    hl.TelescopePreviewTitle = {
+      bg = c.bg_dark,
+      fg = c.bg_dark,
+    }
+    hl.TelescopeResultsTitle = {
+      bg = c.bg_dark,
+      fg = c.bg_dark,
+    }
+  end,
+})
+@end
+
+`|</details>|`(embed:html)
+`|<details>|`(embed:html)
+`|<summary>|`(embed:html)
+Fix `|<code>|`(embed:html)undercurls`|</code>|`(embed:html) in Tmux 
+`|</summary>|`(embed:html)
+
+To have undercurls show up and in color, add the following to your
+{https://github.com/tmux/tmux}[Tmux] configuration file: 
+
+
+@code sh
+# Undercurl
+set -g default-terminal "${TERM}"
+set -as terminal-overrides ',*:Smulx=\E[4::%p1%dm'  # undercurl support
+set -as terminal-overrides ',*:Setulc=\E[58::2::::%p1%{65536}%/%d::%p1%{256}%/%{255}%&%d::%p1%{255}%&%d%;m'  # underscore colours - needs tmux-3.0
+@end
+
+`|</details>|`(embed:html)
+
+** 🔥 Contributing
+
+Pull requests are welcome. 
+
+
+That said, there’s a bunch of ways you can contribute to this project, like by: 
+
+
+- ⭐ Giving a star on this repository (this is very important and costs nothing) 
+- 🪲 Reporting a bug 
+- 📄 Improving this {./doc/nekonight.txt}[documentation] 
+- 🚨 Sharing this project and recommending it to your friends 
+- 💻 Submitting a pull request to the official repository 
+
+
+For the {#-extras}[extras], we use a simple template system that can be used to
+generate themes for the different styles. 
+
+
+How to add a new extra template: 
+
+
+~ Create a file like `lua/nekonight/extra/cool-app.lua`. 
+~ Add the name and output file extension to the `extras` table in
+`lua/nekonight/extra/init.lua`. 
+~ Run the following command to generate new {#-extras}[extra] themes from the nekonight plugin directory: 
+@code sh
+./scripts/build
+@end
+
+~ Check the newly created themes in the `extra/` directory. Please *DO NOT*
+commit them, as they are already automatically built by the CI. 
+
+
+** 👏 Acknowledgements
+
+- {https://github.com/enkia/tokyo-night-vscode-theme}[Visual Studio Code TokyoNight] 
+- {https://github.com/folke/tokyonight.nvim}[tokyonight.nvim] 
+- {https://github.com/ahmadawais/shades-of-purple-vscode}[shades of purple] 
+- {https://github.com/rexim/gruber-darker-theme}[emacs gruber darker] 
+- {https://github.com/rebelot/kanagawa.nvim}[kanagawa.nvim] 
+- {https://github.com/fcancelinha/nordern.nvim}[norden.nvim] 
+- {https://github.com/liviuschera/noctis}[noctis] 
+- {https://github.com/whizkydee/vscode-palenight-theme}[vscode-palenight-theme] 
+- {https://github.com/bbatsov/zenburn-emacs}[Zenburn emacs] 
+- {https://github.com/doomemacs/themes/blob/master/themes/doom-one-theme.el}[doom one] 
+- {https://github.com/ChrisRM/material-theme-jetbrains}[material theme jetbrains] 
+- {https://github.com/robb0wen/synthwave-vscode}[SynthWave ’84] 
+
