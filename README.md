@@ -2,7 +2,7 @@
 <h1 align="center">
   <br>
   <a href="https://github.com/BrunoCiccarino/nekonight">
-    <img src="./img/logo.png" width="600" height="400">
+    <img src="./img/logo.png>
   </a>
   <br>
   🏙 Nekonight
