@@ -9,6 +9,8 @@
   <br>
 </h1>
 
+<img src="https://raw.githubusercontent.com/BrunoCiccarino/nekonight/refs/heads/main/img/line-gradient.svg" alt="line break" width="100%" height="3px">
+
 <p align="center">
   <a href="https://github.com/BrunoCiccarino/nekonight">
     <img src="https://img.shields.io/badge/made_with-lua-code?style=for-the-badge&logo=lua&color=%23789DBC">
@@ -225,6 +227,8 @@ Looking for a theme that fits your vibe? Whether you're into dark mode, light mo
 
   </table>
 
+<img src="https://raw.githubusercontent.com/BrunoCiccarino/nekonight/refs/heads/main/img/line-gradient.svg" alt="line break" width="100%" height="3px">
+
 ## ✨ Features
 
 - Supports the latest [Neovim](https://github.com/neovim/neovim)
@@ -365,6 +369,8 @@ Looking for a theme that fits your vibe? Whether you're into dark mode, light mo
 <!-- extras:end -->
 
 </details>
+
+<img src="https://raw.githubusercontent.com/BrunoCiccarino/nekonight/refs/heads/main/img/line-gradient.svg" alt="line break" width="100%" height="3px">
 
 ## ⚡️ Requirements
 
@@ -525,6 +531,8 @@ M.defaults = {
 
 </details>
 
+<img src="https://raw.githubusercontent.com/BrunoCiccarino/nekonight/refs/heads/main/img/line-gradient.svg" alt="line break" width="100%" height="3px">
+
 ## 🪓 Overriding Colors & Highlight Groups
 
 How the highlight groups are calculated:
@@ -645,6 +653,8 @@ How to add a new extra template:
 
 4. Check the newly created themes in the `extra/` directory. Please **DO NOT**
    commit them, as they are already automatically built by the CI.
+
+<img src="https://raw.githubusercontent.com/BrunoCiccarino/nekonight/refs/heads/main/img/line-gradient.svg" alt="line break" width="100%" height="3px">
 
 ## 👏 Acknowledgements 
 
