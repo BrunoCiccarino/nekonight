@@ -1,13 +1,14 @@
-
 <h1 align="center">
   <br>
   <a href="https://github.com/BrunoCiccarino/nekonight">
-    <img src="./img/logo.png>
+    <img src="./img/logo.png">
   </a>
   <br>
   🏙 Nekonight
   <br>
 </h1>
+
+<img src="https://raw.githubusercontent.com/BrunoCiccarino/nekonight/refs/heads/main/img/line-gradient.svg" alt="line break" width="100%" height="3px">
 
 <p align="center">
   <a href="https://github.com/BrunoCiccarino/nekonight">
