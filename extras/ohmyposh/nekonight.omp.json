@@ -1,50 +1,63 @@
 {
   "$schema": "https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/schema.json",
+  "palette": {
+    "cyan": "#76D7C4",
+    "magenta": "#AF7AC5",
+    "white": "#FFFFFF",
+    "yellow": "#F4D03F"
+  },
   "blocks": [
     {
+      "type": "prompt",
       "alignment": "left",
       "segments": [
         {
-          "background": "#2ac3de",
-          "foreground": "#ffffff",
-          "leading_diamond": "\ue0b6",
-          "style": "diamond",
-          "template": " {{ .UserName }}@{{ .HostName }} ",
-          "trailing_diamond": "\ue0b0",
-          "type": "session"
-        },
-        {
-          "background": "#262835",
-          "foreground": "#ffffff",
-          "powerline_symbol": "\ue0b0",
           "properties": {
-            "style": "full"
+            "cache_duration": "none"
           },
-          "style": "powerline",
-          "template": " {{ .Path }} ",
-          "type": "path"
+          "template": "\u256d\u2500🐱 {{ .UserName }}@{{ .HostName }}",
+          "foreground": "p:yellow",
+          "type": "session",
+          "style": "plain"
         },
         {
-          "background": "#C3E88D",
-          "foreground": "#193549",
-          "powerline_symbol": "\ue0b0",
-          "style": "powerline",
-          "template": " {{ .HEAD }} ",
-          "type": "git"
+          "properties": {
+            "cache_duration": "none"
+          },
+          "template": " in 🐱 {{ .Path }}",
+          "foreground": "p:magenta",
+          "type": "path",
+          "style": "plain"
         },
         {
-          "background": "#C792EA",
-          "foreground": "#ffffff",
-          "leading_diamond": "<transparent,background>\ue0b0</>",
-          "style": "diamond",
-          "template": " {{ if .Error }}{{ .Error }}{{ else }}{{ if .Venv }}{{ .Venv }} {{ end }}{{ .Full }}{{ end }} ",
-          "trailing_diamond": "\ue0b4",
-          "type": "python"
+          "properties": {
+            "branch_icon": "",
+            "cache_duration": "none",
+            "fetch_status": false
+          },
+          "template": " on 🐱 🐱{{ .HEAD }}",
+          "foreground": "p:cyan",
+          "type": "git",
+          "style": "plain"
         }
-      ],
-      "type": "prompt"
+      ]
+    },
+    {
+      "type": "prompt",
+      "alignment": "left",
+      "segments": [
+        {
+          "properties": {
+            "cache_duration": "none"
+          },
+          "template": "\n\u2570\u2500λ ",
+          "foreground": "p:white",
+          "type": "text",
+          "style": "plain"
+        }
+      ]
     }
   ],
-  "final_space": true,
-  "version": 2
+  "version": 3
 }
+
