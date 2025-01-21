@@ -39,39 +39,236 @@ Looking for a theme that fits your vibe? Whether you're into dark mode, light mo
 
 ## 🎨 Original palette 
 
-| Palette              | Hex     | RGB         | HSL           | Color Highlight |
-|----------------------|---------|-------------|---------------|---------|
-| Background           | #262835 | 38 40 53    | 232° 16% 18%  |   <span style="background-color:#262835;">&nbsp;&nbsp;&nbsp;&nbsp;</span>      |
-| Background Dark      | #262333 | 38 35 51    | 251° 19% 17%  |   <span style="background-color:#262333;">&nbsp;&nbsp;&nbsp;&nbsp;</span>      |
-| Background Dark1     | #1b1524 | 27 21 36    | 264° 26% 11%  |   <span style="background-color:#1b1524;">&nbsp;&nbsp;&nbsp;&nbsp;</span>      |
-| Background Highlight | #090028 | 9 0 40      | 253° 100% 8%  |   <span style="background-color:#090028;">&nbsp;&nbsp;&nbsp;&nbsp;</span>      |
-| Blue                 | #82AAFF | 130 170 255 | 221° 100% 75% |   <span style="background-color:#82AAFF;">&nbsp;&nbsp;&nbsp;&nbsp;</span>      |
-| Blue0                | #3d59a1 | 61 89 161   | 223° 45% 44%  |   <span style="background-color:#3d59a1;">&nbsp;&nbsp;&nbsp;&nbsp;</span>      |
-| Blue1                | #2ac3de | 42 195 222  | 189° 73% 52%  |   <span style="background-color:#2ac3de;">&nbsp;&nbsp;&nbsp;&nbsp;</span>      |
-| Blue2                | #0db9d7 | 13 185 215  | 189° 89% 45%  |   <span style="background-color:#0db9d7;">&nbsp;&nbsp;&nbsp;&nbsp;</span>      |
-| Blue5                | #89ddff | 137 221 255 | 197° 100% 77% |   <span style="background-color:#89ddff;">&nbsp;&nbsp;&nbsp;&nbsp;</span>      |
-| Blue6                | #b4f9f8 | 180 249 248 | 179° 85% 84%  |   <span style="background-color:#b4f9f8;">&nbsp;&nbsp;&nbsp;&nbsp;</span>      |
-| Blue7                | #394b70 | 57 75 112   | 220° 33% 33%  |   <span style="background-color:#394b70;">&nbsp;&nbsp;&nbsp;&nbsp;</span>      |
-| Comment              | #546E7A | 84 110 122  | 199° 18% 40%  |   <span style="background-color:#546E7A;">&nbsp;&nbsp;&nbsp;&nbsp;</span>      |
-| Cyan                 | #7dcfff | 125 207 255 | 202° 100% 75% |   <span style="background-color:#7dcfff;">&nbsp;&nbsp;&nbsp;&nbsp;</span>      |
-| Dark3                | #545c7e | 84 92 126   | 229° 20% 41%  |   <span style="background-color:#545c7e;">&nbsp;&nbsp;&nbsp;&nbsp;</span>      |
-| Dark5                | #737aa2 | 115 122 162 | 231° 20% 54%  |   <span style="background-color:#737aa2;">&nbsp;&nbsp;&nbsp;&nbsp;</span>      |
-| Foreground           | #c0caf5 | 192 202 245 | 229° 73% 86%  |   <span style="background-color:#c0caf5;">&nbsp;&nbsp;&nbsp;&nbsp;</span>      |
-| Foreground Gruvbox   | #f9f5d7 | 249 245 215 | 53° 74% 91%   |   <span style="background-color:#f9f5d7;">&nbsp;&nbsp;&nbsp;&nbsp;</span>      |
-| Foreground Dark      | #a9b1d6 | 169 177 214 | 229° 35% 75%  |   <span style="background-color:#a9b1d6;">&nbsp;&nbsp;&nbsp;&nbsp;</span>      |
-| Foreground Gutter    | #3b4261 | 59 66 97    | 229° 24% 31%  |   <span style="background-color:#3b4261;">&nbsp;&nbsp;&nbsp;&nbsp;</span>      |
-| Green                | #C3E88D | 195 232 141 | 84° 66% 73%   |   <span style="background-color:#C3E88D;">&nbsp;&nbsp;&nbsp;&nbsp;</span>      |
-| Green1               | #FFCB6B | 255 203 107 | 39° 100% 71%  |   <span style="background-color:#FFCB6B;">&nbsp;&nbsp;&nbsp;&nbsp;</span>      |
-| Green2               | #41a6b5 | 65 166 181  | 188° 47% 48%  |   <span style="background-color:#41a6b5;">&nbsp;&nbsp;&nbsp;&nbsp;</span>      |
-| Magenta              | #c099ff | 192 153 255 | 263° 100% 80% |   <span style="background-color:#c099ff;">&nbsp;&nbsp;&nbsp;&nbsp;</span>      |
-| Magenta2             | #ff007c | 255 0 124   | 331° 100% 50% |   <span style="background-color:#ff007c;">&nbsp;&nbsp;&nbsp;&nbsp;</span>      |
-| Orange               | #dd9046 | 221 144 70  | 29° 69% 57%   |   <span style="background-color:#dd9046;">&nbsp;&nbsp;&nbsp;&nbsp;</span>      |
-| Purple               | #C792EA | 199 146 234 | 276° 68% 75%  |   <span style="background-color:#C792EA;">&nbsp;&nbsp;&nbsp;&nbsp;</span>      |
-| Red                  | #f65866 | 246 88 102  | 355° 90% 65%  |   <span style="background-color:#f65866;">&nbsp;&nbsp;&nbsp;&nbsp;</span>      |
-| Red1                 | #c53b53 | 197 59 83   | 350° 54% 50%  |   <span style="background-color:#c53b53;">&nbsp;&nbsp;&nbsp;&nbsp;</span>      |
-| Teal                 | #4fd6be | 79 214 190  | 169° 62% 57%  |   <span style="background-color:#4fd6be;">&nbsp;&nbsp;&nbsp;&nbsp;</span>      |
-| Terminal Black       | #444a73 | 68 74 115   | 232° 26% 36%  |   <span style="background-color:#444a73;">&nbsp;&nbsp;&nbsp;&nbsp;</span>      |
-| Yellow               | #efbd5d | 239 189 93  | 39° 82% 65%   |   <span style="background-color:#efbd5d;">&nbsp;&nbsp;&nbsp;&nbsp;</span>      |
+<table border="1" cellspacing="0" cellpadding="5" style="border-collapse: collapse; width: 100%; text-align: left;">
+  <thead>
+    <tr>
+      <th>Palette</th>
+      <th>Hex</th>
+      <th>RGB</th>
+      <th>HSL</th>
+      <th>Color Highlight</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Background</td>
+      <td>#262835</td>
+      <td>38 40 53</td>
+      <td>232° 16% 18%</td>
+      <td style="background-color: #262835; width: 50px;">&nbsp;</td>
+    </tr>
+    <tr>
+      <td>Background Dark</td>
+      <td>#262333</td>
+      <td>38 35 51</td>
+      <td>251° 19% 17%</td>
+      <td style="background-color: #262333; width: 50px;">&nbsp;</td>
+    </tr>
+    <tr>
+      <td>Background Dark1</td>
+      <td>#1b1524</td>
+      <td>27 21 36</td>
+      <td>264° 26% 11%</td>
+      <td style="background-color: #1b1524; width: 50px;">&nbsp;</td>
+    </tr>
+    <tr>
+      <td>Background Highlight</td>
+      <td>#090028</td>
+      <td>9 0 40</td>
+      <td>253° 100% 8%</td>
+      <td style="background-color: #090028; width: 50px;">&nbsp;</td>
+    </tr>
+    <tr>
+      <td>Blue</td>
+      <td>#82AAFF</td>
+      <td>130 170 255</td>
+      <td>221° 100% 75%</td>
+      <td style="background-color: #82AAFF; width: 50px;">&nbsp;</td>
+    </tr>
+    <tr>
+      <td>Blue0</td>
+      <td>#3d59a1</td>
+      <td>61 89 161</td>
+      <td>223° 45% 44%</td>
+      <td style="background-color: #3d59a1; width: 50px;">&nbsp;</td>
+    </tr>
+    <tr>
+      <td>Blue1</td>
+      <td>#2ac3de</td>
+      <td>42 195 222</td>
+      <td>189° 73% 52%</td>
+      <td style="background-color: #2ac3de; width: 50px;">&nbsp;</td>
+    </tr>
+    <tr>
+      <td>Blue2</td>
+      <td>#0db9d7</td>
+      <td>13 185 215</td>
+      <td>189° 89% 45%</td>
+      <td style="background-color: #0db9d7; width: 50px;">&nbsp;</td>
+    </tr>
+    <tr>
+      <td>Blue5</td>
+      <td>#89ddff</td>
+      <td>137 221 255</td>
+      <td>197° 100% 77%</td>
+      <td style="background-color: #89ddff; width: 50px;">&nbsp;</td>
+    </tr>
+    <tr>
+      <td>Blue6</td>
+      <td>#b4f9f8</td>
+      <td>180 249 248</td>
+      <td>179° 85% 84%</td>
+      <td style="background-color: #b4f9f8; width: 50px;">&nbsp;</td>
+    </tr>
+    <tr>
+      <td>Blue7</td>
+      <td>#394b70</td>
+      <td>57 75 112</td>
+      <td>220° 33% 33%</td>
+      <td style="background-color: #394b70; width: 50px;">&nbsp;</td>
+    </tr>
+    <tr>
+      <td>Comment</td>
+      <td>#546E7A</td>
+      <td>84 110 122</td>
+      <td>199° 18% 40%</td>
+      <td style="background-color: #546E7A; width: 50px;">&nbsp;</td>
+    </tr>
+    <tr>
+      <td>Cyan</td>
+      <td>#7dcfff</td>
+      <td>125 207 255</td>
+      <td>202° 100% 75%</td>
+      <td style="background-color: #7dcfff; width: 50px;">&nbsp;</td>
+    </tr>
+    <tr>
+      <td>Dark3</td>
+      <td>#545c7e</td>
+      <td>84 92 126</td>
+      <td>229° 20% 41%</td>
+      <td style="background-color: #545c7e; width: 50px;">&nbsp;</td>
+    </tr>
+    <tr>
+      <td>Dark5</td>
+      <td>#737aa2</td>
+      <td>115 122 162</td>
+      <td>231° 20% 54%</td>
+      <td style="background-color: #737aa2; width: 50px;">&nbsp;</td>
+    </tr>
+    <tr>
+      <td>Foreground</td>
+      <td>#c0caf5</td>
+      <td>192 202 245</td>
+      <td>229° 73% 86%</td>
+      <td style="background-color: #c0caf5; width: 50px;">&nbsp;</td>
+    </tr>
+    <tr>
+      <td>Foreground Gruvbox</td>
+      <td>#f9f5d7</td>
+      <td>249 245 215</td>
+      <td>53° 74% 91%</td>
+      <td style="background-color: #f9f5d7; width: 50px;">&nbsp;</td>
+    </tr>
+    <tr>
+      <td>Foreground Dark</td>
+      <td>#a9b1d6</td>
+      <td>169 177 214</td>
+      <td>229° 35% 75%</td>
+      <td style="background-color: #a9b1d6; width: 50px;">&nbsp;</td>
+    </tr>
+    <tr>
+      <td>Foreground Gutter</td>
+      <td>#3b4261</td>
+      <td>59 66 97</td>
+      <td>229° 24% 31%</td>
+      <td style="background-color: #3b4261; width: 50px;">&nbsp;</td>
+    </tr>
+    <tr>
+      <td>Green</td>
+      <td>#C3E88D</td>
+      <td>195 232 141</td>
+      <td>84° 66% 73%</td>
+      <td style="background-color: #C3E88D; width: 50px;">&nbsp;</td>
+    </tr>
+    <tr>
+      <td>Green1</td>
+      <td>#FFCB6B</td>
+      <td>255 203 107</td>
+      <td>39° 100% 71%</td>
+      <td style="background-color: #FFCB6B; width: 50px;">&nbsp;</td>
+    </tr>
+    <tr>
+      <td>Green2</td>
+      <td>#41a6b5</td>
+      <td>65 166 181</td>
+      <td>188° 47% 48%</td>
+      <td style="background-color: #41a6b5; width: 50px;">&nbsp;</td>
+    </tr>
+    <tr>
+      <td>Magenta</td>
+      <td>#c099ff</td>
+      <td>192 153 255</td>
+      <td>263° 100% 80%</td>
+      <td style="background-color: #c099ff; width: 50px;">&nbsp;</td>
+    </tr>
+    <tr>
+      <td>Magenta2</td>
+      <td>#ff007c</td>
+      <td>255 0 124</td>
+      <td>331° 100% 50%</td>
+      <td style="background-color: #ff007c; width: 50px;">&nbsp;</td>
+    </tr>
+    <tr>
+      <td>Orange</td>
+      <td>#dd9046</td>
+      <td>221 144 70</td>
+      <td>29° 69% 57%</td>
+      <td style="background-color: #dd9046; width: 50px;">&nbsp;</td>
+    </tr>
+    <tr>
+      <td>Purple</td>
+      <td>#C792EA</td>
+      <td>199 146 234</td>
+      <td>276° 68% 75%</td>
+      <td style="background-color: #C792EA; width: 50px;">&nbsp;</td>
+    </tr>
+    <tr>
+      <td>Red</td>
+      <td>#f65866</td>
+      <td>246 88 102</td>
+      <td>355° 90% 65%</td>
+      <td style="background-color: #f65866; width: 50px;">&nbsp;</td>
+    </tr>
+    <tr>
+      <td>Red1</td>
+      <td>#c53b53</td>
+      <td>197 59 83</td>
+      <td>350° 54% 50%</td>
+      <td style="background-color: #c53b53; width: 50px;">&nbsp;</td>
+    </tr>
+    <tr>
+      <td>Teal</td>
+      <td>#4fd6be</td>
+      <td>79 214 190</td>
+      <td>169° 62% 57%</td>
+      <td style="background-color: #4fd6be; width: 50px;">&nbsp;</td>
+    </tr>
+    <tr>
+      <td>Terminal Black</td>
+      <td>#444a73</td>
+      <td>68 74 115</td>
+      <td>232° 26% 36%</td>
+      <td style="background-color: #444a73; width: 50px;">&nbsp;</td>
+    </tr>
+    <tr>
+      <td>Yellow</td>
+      <td>#efbd5d</td>
+      <td>239 189 93</td>
+      <td>39° 82% 65%</td>
+      <td style="background-color: #efbd5d; width: 50px;">&nbsp;</td>
+    </tr>
+  </tbody>
+</table>
 
 ## 🍭 Themes preview 
  
