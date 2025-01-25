@@ -190,8 +190,18 @@ Looking for a theme that fits your vibe? Whether you're into dark mode, light mo
       <img src="./img/neko-deep-ocean.jpg"/>
     </td>
   </tr>
-
-
+      <tr>
+    <th>Sky blue</th>
+    <th>Dracula at night</th>
+  </tr>
+  <tr>
+    <td width="50%">
+      <img src="./img/nekonight-sky-blue.jpg"/>
+    </td>
+    <td width="50%">
+      <img src="./img/nekonight-dracula-at-night.jpg"/>
+    </td>
+  </tr>
   </table>
 
 <img src="https://raw.githubusercontent.com/BrunoCiccarino/nekonight/refs/heads/main/img/line-gradient.svg" alt="line break" width="100%" height="3px">
